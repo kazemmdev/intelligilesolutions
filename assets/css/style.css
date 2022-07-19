@@ -1,0 +1,53 @@
+/* general */
+.BodyBackground {
+  background-image: url("~assets/pictures/bodybackground.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+hr{
+  height: 1px !important;
+  color: #acaaaa !important;
+  width: 92%;
+  margin: 0 auto !important;
+}
+
+.nuxt-link-active {
+  text-decoration: none !important;
+}
+
+.text-style {
+  font-family: 'Open Sans';
+  font-size: 30px;
+  color: #231942;
+}
+
+
+.subNavPage {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.09);
+}
+
+.ck.ck-editor {
+  width: 100% !important;
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+
+.ck-editor__editable, .ck.ck-editor__main, .ck-focused {
+  background-color: #eff0f4 !important;
+  outline: none !important;
+  border: none !important;
+  min-height: 200px;
+}
+
+.ck.ck-editor__main>.ck-editor__editable {
+  border: none;
+}
+
+.ck.ck-editor__top, .ck.ck-toolbar {
+  border-radius: 10px 10px 0 0 !important;
+  background-color: white !important;
+  border: 1px solid #eff0f4 !important;
+}

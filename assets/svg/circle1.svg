@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="99" height="117" viewBox="0 0 99 117">
+    <defs>
+        <clipPath id="qkx4oixmha">
+            <path style="fill:none" d="M-23 0h99v117h-99z"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(23)" style="isolation:isolate;clip-path:url(#qkx4oixmha)">
+        <circle cx="58.5" cy="58.5" r="58.5" style="fill:#fff;opacity:.21"/>
+    </g>
+</svg>
