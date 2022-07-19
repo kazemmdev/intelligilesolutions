@@ -4,7 +4,7 @@
     <div class="container py-4 d-none d-lg-block">
       <div class="row justify-content-between">
         <div class="col-lg-1">
-          <img src="~/assets/pictures/logokandaka.png" alt="logo" class="logo"/>
+          <img src="~/assets/pictures/logokandaka.svg" alt="logo" class="logo"/>
         </div>
         <div class="col-auto col-lg-5 text-start pe-5">
           <nav class="navbar shadow-0 navbar-expand-lg py-4 pe-2">
@@ -18,10 +18,27 @@
                     About
                   </nuxt-link>
                 </li>
-              <li class="nav-item px-3">
+              <li class="DropDownNav nav-item px-3">
                 <nuxt-link class="nav-link" to="/products">
                   Products
                 </nuxt-link>
+                 <div class="DropDown">
+                    <nuxt-link class="nav-link" to="/products">
+                    Lip Care
+                    </nuxt-link>
+                     <nuxt-link class="nav-link" to="/products">
+                    Skin Care
+                    </nuxt-link>
+                     <nuxt-link class="nav-link" to="/products">
+                    Jewelry
+                    </nuxt-link>
+                     <nuxt-link class="nav-link" to="/products">
+                    Nail
+                    </nuxt-link>
+                     <nuxt-link class="nav-link" to="/products">
+                    Perfum
+                    </nuxt-link>
+                 </div>
               </li>
                 <li class="nav-item px-3">
                   <nuxt-link class="nav-link" to="/contact">
@@ -114,6 +131,38 @@ export default {
 </script>
 
 <style scoped>
+
+.DropDownNav:hover .DropDown {
+  display: block;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.DropDown {
+  display: none;
+  font-family: 'Open Sans';
+  font-size: 10pt !important;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 13px;
+  width: 60%;
+  position: absolute;
+  right: 5%;
+  margin-top: 2px;
+  padding: 20px;
+}
+
+.DropDown a {
+  font-size: 12pt !important;
+  padding-left: 20px !important;
+}
+
+
+.DropDown a:hover {
+  font-size: 12pt !important;
+  background-color: #e99d7b!important;
+  color: #fff!important;
+}
 
 /* navbar component style */
 nav a {

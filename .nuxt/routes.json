@@ -3,98 +3,84 @@
     "name": "about",
     "path": "/about",
     "component": "/home/pedram/Projects/intelligiledev/pages/about/index.vue",
-    "chunkName": "pages/about/index",
-    "_name": "_3e9ed0fe"
+    "chunkName": "pages/about/index"
   },
   {
     "name": "cart",
     "path": "/cart",
     "component": "/home/pedram/Projects/intelligiledev/pages/cart/index.vue",
-    "chunkName": "pages/cart/index",
-    "_name": "_61b81a02"
+    "chunkName": "pages/cart/index"
   },
   {
     "name": "comments",
     "path": "/comments",
     "component": "/home/pedram/Projects/intelligiledev/pages/comments/index.vue",
-    "chunkName": "pages/comments/index",
-    "_name": "_38006f54"
+    "chunkName": "pages/comments/index"
   },
   {
     "name": "contact",
     "path": "/contact",
     "component": "/home/pedram/Projects/intelligiledev/pages/contact/index.vue",
-    "chunkName": "pages/contact/index",
-    "_name": "_3d235a14"
+    "chunkName": "pages/contact/index"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "/home/pedram/Projects/intelligiledev/pages/login/index.vue",
-    "chunkName": "pages/login/index",
-    "_name": "_30cd7f46"
+    "chunkName": "pages/login/index"
   },
   {
     "name": "orders",
     "path": "/orders",
     "component": "/home/pedram/Projects/intelligiledev/pages/orders/index.vue",
-    "chunkName": "pages/orders/index",
-    "_name": "_edae0c72"
+    "chunkName": "pages/orders/index"
   },
   {
     "name": "products",
     "path": "/products",
     "component": "/home/pedram/Projects/intelligiledev/pages/products/index.vue",
-    "chunkName": "pages/products/index",
-    "_name": "_4a0e2fc6"
+    "chunkName": "pages/products/index"
   },
   {
     "name": "profile",
     "path": "/profile",
     "component": "/home/pedram/Projects/intelligiledev/pages/profile/index.vue",
-    "chunkName": "pages/profile/index",
-    "_name": "_0bb7af46"
+    "chunkName": "pages/profile/index"
   },
   {
     "name": "saved",
     "path": "/saved",
     "component": "/home/pedram/Projects/intelligiledev/pages/saved/index.vue",
-    "chunkName": "pages/saved/index",
-    "_name": "_0c6ff1fb"
+    "chunkName": "pages/saved/index"
   },
   {
     "name": "signup",
     "path": "/signup",
     "component": "/home/pedram/Projects/intelligiledev/pages/signup/index.vue",
-    "chunkName": "pages/signup/index",
-    "_name": "_4755243a"
+    "chunkName": "pages/signup/index"
   },
   {
     "name": "supports",
     "path": "/supports",
     "component": "/home/pedram/Projects/intelligiledev/pages/supports/index.vue",
-    "chunkName": "pages/supports/index",
-    "_name": "_5016f0e6"
+    "chunkName": "pages/supports/index"
   },
   {
     "name": "profile-edit",
     "path": "/profile/edit",
     "component": "/home/pedram/Projects/intelligiledev/pages/profile/edit/index.vue",
-    "chunkName": "pages/profile/edit/index",
-    "_name": "_6b638a92"
+    "chunkName": "pages/profile/edit/index"
   },
   {
     "name": "supports-id",
     "path": "/supports/:id",
     "component": "/home/pedram/Projects/intelligiledev/pages/supports/_id/index.vue",
-    "chunkName": "pages/supports/_id/index",
-    "_name": "_0ea128d1"
+    "chunkName": "pages/supports/_id/index"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/home/pedram/Projects/intelligiledev/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_29440243"
+    "chunkName": "pages/index"
   }
 ]

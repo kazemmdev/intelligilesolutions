@@ -149,6 +149,18 @@ export default {
 
 <style scoped>
 
+.CatTxt:hover {
+  cursor: pointer;
+  color: #e99d7b;
+  transition: 0.5s;
+}
+
+.CategorieTxt:hover {
+  cursor: pointer;
+  color: #e99d7b;
+  transition: 0.5s;
+}
+
 button {
   color: #5a5a5a;
   border-radius: 8px;

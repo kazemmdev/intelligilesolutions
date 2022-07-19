@@ -67,7 +67,7 @@
                     <p class="FooterSubMenu">Scarf</p>
                   </div>
                   <div class="col-lg-2">
-                    <p class="FooterMenu py-4">Contact information</p>
+                    <p  class="FooterMenu py-4">Contact information</p>
                     <div class="d-flex flex-row align-items-center">
                     <i class="GmailIcon bi bi-envelope-fill"></i> 
                     <p class="FooterSubMenu ps-2 mt-2">kandakacollections@gmail.com</p>
@@ -313,7 +313,7 @@ z-index: 1;
  .FooterLogoTxt {
   font-family: 'Open Sans';
   font-weight: 600;
-  font-size: 12pt;
+  font-size: 10pt;
   color: #fafafa;
   text-align: left;
  }
@@ -321,7 +321,7 @@ z-index: 1;
  .FooterMobileLogoTxt {
   font-family: 'Open Sans';
   font-weight: 600;
-  font-size: 12pt;
+  font-size: 10pt;
   color: #fafafa;
   text-align: center;
  }

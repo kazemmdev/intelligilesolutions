@@ -102,7 +102,7 @@
             <!-- slider arrows -->
             <div class="d-flex flex-row align-items-center">
                 <img class="OffLeftArrow ArrowsPosition px-4" src="~/assets/pictures/LeftArrow.svg" alt="LeftArrow">
-                <img class="OffRightArrow"  src="~/assets/pictures/RightArrow.svg" alt="RightArrow">
+                <img class="OffRightArrow" src="~/assets/pictures/RightArrow.svg" alt="RightArrow">
             </div>
           <img class="offimg d-none d-lg-block" src="~/assets/pictures/offimg.svg" alt="">
         </div>       
@@ -310,8 +310,12 @@
               </div>
               <!-- arrows inside flex -->
               <div class="SlideArrowPosition d-flex flex-row align-items-cemter justify-content-between px-5">
-                <i class="TopProdLeft bi bi-caret-left"></i>
-                <i class="TopProdRight bi bi-caret-right"></i>
+                <div class="TopProdRight">
+                <i class=" SlideBtn bi bi-caret-left"></i>
+                </div>
+                <div class="TopProdLeft">
+                <i class="SlideBtn bi bi-caret-right"></i>
+                </div>
               </div>
         </div>
       </div>
@@ -350,8 +354,12 @@
               </div>
                    <!-- arrows inside flex -->
               <div class="SlideArrowPosition d-flex flex-row align-items-cemter justify-content-between px-5">
-                <i class="TopProdLeft2 bi bi-caret-left"></i>
-                <i class="TopProdRight2 bi bi-caret-right"></i>
+                <div class="BestProdLeft">
+                <i class=" SlideBtn bi bi-caret-left"></i>
+                </div>
+                <div class="BestProdRight">
+                <i class="SlideBtn bi bi-caret-right"></i>
+                </div>
               </div>
         </div>
       </div>
@@ -376,15 +384,14 @@ export default {
 
   methods: {}, 
 
-
   mounted() {
     
     $(function () {
       // top products slider
       $('.TopProdSlider').slick({
-        arrows: false,
+        arrows: true,
         infinite: false,
-        slidesToScroll: 4,
+        slidesToScroll: 1,
         slidesToShow: 4,
         accessibility: true,
         variableWidth: false,
@@ -419,18 +426,17 @@ export default {
       
       // Best products slider
     $('.BestProdSlider').slick({
-        dots: true,
-        appendDots: '.slider-dots',
-        arrows: false,
+        dots: false,
+        arrows: true,
         infinite: false,
-        slidesToScroll: 4,
+        slidesToScroll: 1,
         slidesToShow: 4,
         accessibility: true,
         variableWidth: false,
         focusOnSelect: false,
         centerMode: false,
-        nextArrow: $(".TopProdLeft2"),
-        prevArrow: $(".TopProdRight2"),
+        nextArrow: $(".BestProdRight"),
+        prevArrow: $(".BestProdLeft"),
         responsive: [
           {
             breakpoint: 992,
@@ -458,18 +464,17 @@ export default {
 
       //Off Products slider
          $('.OffProdSlider').slick({
-        dots: true,
-        appendDots: '.slider-dots',
+        dots: false,
         arrows: true,
         infinite: false,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         slidesToShow: 3,
         accessibility: true,
         variableWidth: false,
         focusOnSelect: false,
         centerMode: false,
-        nextArrow: $(".OffLeftArrow"),
-        prevArrow: $(".OffRightArrow"),
+        nextArrow: $(".OffRightArrow"),
+        prevArrow: $(".OffLeftArrow"),
         responsive: [
           {
             breakpoint: 992,
@@ -504,12 +509,20 @@ export default {
 
 <style scoped>
 
-.TopProdLeft {
-
+.OffRightArrow {
+  cursor: pointer;
 }
 
-.TopProdRight {
-  
+.OffLeftArrow {
+  cursor: pointer;
+}
+
+.SlideBtn {
+  cursor: pointer;
+  background-color: rgba(204, 204, 204, 0.50);
+  border-radius: 50%;
+  padding: 8px;
+  font-size: 13pt;
 }
 
 .SlideArrowPosition {
