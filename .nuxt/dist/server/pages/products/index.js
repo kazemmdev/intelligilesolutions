@@ -1,5 +1,5 @@
 
-exports.ids = [8];
+exports.ids = [9];
 exports.modules = {
 
 /***/ 129:
@@ -15,7 +15,7 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5v
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(160);
+var content = __webpack_require__(172);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -27,28 +27,28 @@ module.exports.__inject__ = function (context) {
 
 /***/ }),
 
-/***/ 156:
+/***/ 168:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/ProductThree.cbf6bb5.jpg";
 
 /***/ }),
 
-/***/ 157:
+/***/ 169:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/ProductOne.3cad331.jpg";
 
 /***/ }),
 
-/***/ 158:
+/***/ 170:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/ProductTwo.ad4a802.jpg";
 
 /***/ }),
 
-/***/ 159:
+/***/ 171:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -60,14 +60,14 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 160:
+/***/ 172:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(3);
 var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(8);
-var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(94);
-var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(42);
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(93);
+var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(41);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
@@ -79,7 +79,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 195:
+/***/ 208:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -91,7 +91,7 @@ var render = function render() {
   var _vm = this,
       _c = _vm._self._c;
 
-  return _c('div', [_c('TheHeader'), _vm._ssrNode(" <section class=\"PageBkg\" data-v-6835481c><div class=\"container px-4 px-md-4 px-lg-4 pt-4\" data-v-6835481c><div class=\"d-flex flex-row\" data-v-6835481c><p class=\"BroadHome\" data-v-6835481c>Home</p> <p class=\"px-2\" data-v-6835481c>/</p> <p class=\"BroadSub\" data-v-6835481c>Products</p></div></div> <div class=\"container px-4 px-md-4 px-lg-4 pb-3\" data-v-6835481c><div class=\"d-flex flex-row justify-content-between\" data-v-6835481c><p class=\"PageTitle\" data-v-6835481c>Products</p> <p class=\"ResultsTxt\" data-v-6835481c>Showing 09 Results</p></div></div> <div class=\"container px-4 px-md-4 px-lg-4\" data-v-6835481c><div class=\"row gx-5\" data-v-6835481c><div class=\"col-lg-4 div col-md-4 pb-4 py-md-0 py-lg-0\" data-v-6835481c><div class=\"input-group rounded\" data-v-6835481c><input type=\"search\" placeholder=\"Search Here\" aria-label=\"Search\" aria-describedby=\"search-addon\" class=\"ProductsForm form-control rounded\" data-v-6835481c> <span id=\"search-addon\" class=\"input-group-text search\" data-v-6835481c><i class=\"bi bi-search\" data-v-6835481c></i></span></div> <section class=\"CatSec mt-4 py-2 px-4\" data-v-6835481c><div class=\"d-flex flex-row align-items-center py-3\" data-v-6835481c><img" + _vm._ssrAttr("src", __webpack_require__(129)) + " alt=\"categorie\" class=\"CatImg\" data-v-6835481c> <p class=\"px-2 CatTxt m-0\" data-v-6835481c> Categories</p></div> <div class=\"d-flex align-items-center justify-content-between\" data-v-6835481c><p class=\"CategorieTxt\" data-v-6835481c>Accesories</p> <p data-v-6835481c>(5)</p></div> <hr data-v-6835481c> <div class=\"pt-3 d-flex align-items-center justify-content-between\" data-v-6835481c><p class=\"CategorieTxt\" data-v-6835481c>Face care</p> <p data-v-6835481c>(5)</p></div> <hr data-v-6835481c> <div class=\"pt-3 d-flex align-items-center justify-content-between\" data-v-6835481c><p class=\"CategorieTxt\" data-v-6835481c>Lip care</p> <p data-v-6835481c>(5)</p></div> <hr data-v-6835481c> <div class=\"pt-3 d-flex align-items-center justify-content-between\" data-v-6835481c><p class=\"CategorieTxt\" data-v-6835481c>Skin care</p> <p data-v-6835481c>(5)</p></div> <hr data-v-6835481c> <div class=\"pt-3 d-flex align-items-center justify-content-between\" data-v-6835481c><p class=\"CategorieTxt\" data-v-6835481c>Nail care</p> <p data-v-6835481c>(5)</p></div> <hr data-v-6835481c> <div class=\"pt-3 d-flex align-items-center justify-content-between\" data-v-6835481c><p class=\"CategorieTxt\" data-v-6835481c>Blusher</p> <p data-v-6835481c>(5)</p></div></section> <section class=\"CatSec mt-4 py-2 px-4\" data-v-6835481c><div class=\"d-flex flex-row align-items-center py-3\" data-v-6835481c><img" + _vm._ssrAttr("src", __webpack_require__(129)) + " alt=\"categorie\" class=\"CatImg\" data-v-6835481c> <p class=\"px-2 CatTxt m-0\" data-v-6835481c>Popular Tags</p></div> <hr data-v-6835481c> <div class=\"d-flex align-items-center justify-content-center\" data-v-6835481c><button type=\"button\" class=\"mt-3 mx-2 btn btn-sm btn-light btn-rounded\" data-v-6835481c>Beauty</button> <button type=\"button\" class=\"mt-3 mx-2 btn btn-sm btn-light btn-rounded\" data-v-6835481c>MakeupArtist</button></div> <div class=\"py-3 d-flex align-items-center justify-content-center\" data-v-6835481c><button type=\"button\" class=\"mx-2 btn btn-sm btn-light btn-rounded\" data-v-6835481c>Makeup</button> <button type=\"button\" class=\"mx-2 btn btn-sm btn-light btn-rounded\" data-v-6835481c>Hair</button> <button type=\"button\" class=\"mx-2 btn btn-sm btn-light btn-rounded\" data-v-6835481c>Nails</button></div> <div class=\"pb-3 d-flex align-items-center justify-content-center\" data-v-6835481c><button type=\"button\" class=\"mx-2 btn btn-sm btn-light btn-rounded\" data-v-6835481c>Hairstyle</button> <button type=\"button\" class=\"mx-2 btn btn-sm btn-light btn-rounded\" data-v-6835481c>Skincare</button></div></section></div> <div class=\"col-lg-8 div col-md-8\" data-v-6835481c><div class=\"container px-0\" data-v-6835481c><div class=\"row\" data-v-6835481c><div class=\"col-6 col-lg-4 col-md-4\" data-v-6835481c><img" + _vm._ssrAttr("src", __webpack_require__(156)) + " alt=\"ProductThree\" class=\"pb-2 w-100\" data-v-6835481c> <i class=\"bi bi-star-fill starbi\" data-v-6835481c></i> <i class=\"bi bi-star-fill starbi\" data-v-6835481c></i> <i class=\"bi bi-star-fill starbi\" data-v-6835481c></i> <i class=\"bi bi-star starbi\" data-v-6835481c></i> <i class=\"bi bi-star starbi\" data-v-6835481c></i> <p class=\"pt-2 ProductTitle\" data-v-6835481c>Sella body butter</p> <p class=\"ProductTitle\" data-v-6835481c>$350.00</p></div> <div class=\"col-6 col-lg-4 col-md-4\" data-v-6835481c><img" + _vm._ssrAttr("src", __webpack_require__(157)) + " alt=\"ProductOne\" class=\"pb-2 w-100\" data-v-6835481c> <i class=\"bi bi-star-fill starbi\" data-v-6835481c></i> <i class=\"bi bi-star-fill starbi\" data-v-6835481c></i> <i class=\"bi bi-star-fill starbi\" data-v-6835481c></i> <i class=\"bi bi-star starbi\" data-v-6835481c></i> <i class=\"bi bi-star starbi\" data-v-6835481c></i> <p class=\"pt-2 ProductTitle\" data-v-6835481c>Sella body butter</p> <p class=\"ProductTitle\" data-v-6835481c>$350.00</p></div> <div class=\"col-6 col-lg-4 col-md-4\" data-v-6835481c><img" + _vm._ssrAttr("src", __webpack_require__(158)) + " alt=\"ProductTwo\" class=\"pb-2 w-100\" data-v-6835481c> <i class=\"bi bi-star-fill starbi\" data-v-6835481c></i> <i class=\"bi bi-star-fill starbi\" data-v-6835481c></i> <i class=\"bi bi-star-fill starbi\" data-v-6835481c></i> <i class=\"bi bi-star starbi\" data-v-6835481c></i> <i class=\"bi bi-star starbi\" data-v-6835481c></i> <p class=\"pt-2 ProductTitle\" data-v-6835481c>Sella body butter</p> <p class=\"ProductTitle\" data-v-6835481c>$350.00</p></div></div></div></div></div></div></section> "), _c('TheFooter')], 2);
+  return _c('div', [_c('TheHeader'), _vm._ssrNode(" <section class=\"PageBkg\" data-v-6835481c><div class=\"container px-4 px-md-4 px-lg-4 pt-4\" data-v-6835481c><div class=\"d-flex flex-row\" data-v-6835481c><p class=\"BroadHome\" data-v-6835481c>Home</p> <p class=\"px-2\" data-v-6835481c>/</p> <p class=\"BroadSub\" data-v-6835481c>Products</p></div></div> <div class=\"container px-4 px-md-4 px-lg-4 pb-3\" data-v-6835481c><div class=\"d-flex flex-row justify-content-between\" data-v-6835481c><p class=\"PageTitle\" data-v-6835481c>Products</p> <p class=\"ResultsTxt\" data-v-6835481c>Showing 09 Results</p></div></div> <div class=\"container px-4 px-md-4 px-lg-4\" data-v-6835481c><div class=\"row gx-5\" data-v-6835481c><div class=\"col-lg-4 div col-md-4 pb-4 py-md-0 py-lg-0\" data-v-6835481c><div class=\"input-group rounded\" data-v-6835481c><input type=\"search\" placeholder=\"Search Here\" aria-label=\"Search\" aria-describedby=\"search-addon\" class=\"ProductsForm form-control rounded\" data-v-6835481c> <span id=\"search-addon\" class=\"input-group-text search\" data-v-6835481c><i class=\"bi bi-search\" data-v-6835481c></i></span></div> <section class=\"CatSec mt-4 py-2 px-4\" data-v-6835481c><div class=\"d-flex flex-row align-items-center py-3\" data-v-6835481c><img" + _vm._ssrAttr("src", __webpack_require__(129)) + " alt=\"categorie\" class=\"CatImg\" data-v-6835481c> <p class=\"px-2 CatTxt m-0\" data-v-6835481c> Categories</p></div> <div class=\"d-flex align-items-center justify-content-between\" data-v-6835481c><p class=\"CategorieTxt\" data-v-6835481c>Accesories</p> <p data-v-6835481c>(5)</p></div> <hr data-v-6835481c> <div class=\"pt-3 d-flex align-items-center justify-content-between\" data-v-6835481c><p class=\"CategorieTxt\" data-v-6835481c>Face care</p> <p data-v-6835481c>(5)</p></div> <hr data-v-6835481c> <div class=\"pt-3 d-flex align-items-center justify-content-between\" data-v-6835481c><p class=\"CategorieTxt\" data-v-6835481c>Lip care</p> <p data-v-6835481c>(5)</p></div> <hr data-v-6835481c> <div class=\"pt-3 d-flex align-items-center justify-content-between\" data-v-6835481c><p class=\"CategorieTxt\" data-v-6835481c>Skin care</p> <p data-v-6835481c>(5)</p></div> <hr data-v-6835481c> <div class=\"pt-3 d-flex align-items-center justify-content-between\" data-v-6835481c><p class=\"CategorieTxt\" data-v-6835481c>Nail care</p> <p data-v-6835481c>(5)</p></div> <hr data-v-6835481c> <div class=\"pt-3 d-flex align-items-center justify-content-between\" data-v-6835481c><p class=\"CategorieTxt\" data-v-6835481c>Blusher</p> <p data-v-6835481c>(5)</p></div></section> <section class=\"CatSec mt-4 py-2 px-4\" data-v-6835481c><div class=\"d-flex flex-row align-items-center py-3\" data-v-6835481c><img" + _vm._ssrAttr("src", __webpack_require__(129)) + " alt=\"categorie\" class=\"CatImg\" data-v-6835481c> <p class=\"px-2 CatTxt m-0\" data-v-6835481c>Popular Tags</p></div> <hr data-v-6835481c> <div class=\"d-flex align-items-center justify-content-center\" data-v-6835481c><button type=\"button\" class=\"mt-3 mx-2 btn btn-sm btn-light btn-rounded\" data-v-6835481c>Beauty</button> <button type=\"button\" class=\"mt-3 mx-2 btn btn-sm btn-light btn-rounded\" data-v-6835481c>MakeupArtist</button></div> <div class=\"py-3 d-flex align-items-center justify-content-center\" data-v-6835481c><button type=\"button\" class=\"mx-2 btn btn-sm btn-light btn-rounded\" data-v-6835481c>Makeup</button> <button type=\"button\" class=\"mx-2 btn btn-sm btn-light btn-rounded\" data-v-6835481c>Hair</button> <button type=\"button\" class=\"mx-2 btn btn-sm btn-light btn-rounded\" data-v-6835481c>Nails</button></div> <div class=\"pb-3 d-flex align-items-center justify-content-center\" data-v-6835481c><button type=\"button\" class=\"mx-2 btn btn-sm btn-light btn-rounded\" data-v-6835481c>Hairstyle</button> <button type=\"button\" class=\"mx-2 btn btn-sm btn-light btn-rounded\" data-v-6835481c>Skincare</button></div></section></div> <div class=\"col-lg-8 div col-md-8\" data-v-6835481c><div class=\"container px-0\" data-v-6835481c><div class=\"row\" data-v-6835481c><div class=\"col-6 col-lg-4 col-md-4\" data-v-6835481c><img" + _vm._ssrAttr("src", __webpack_require__(168)) + " alt=\"ProductThree\" class=\"pb-2 w-100\" data-v-6835481c> <i class=\"bi bi-star-fill starbi\" data-v-6835481c></i> <i class=\"bi bi-star-fill starbi\" data-v-6835481c></i> <i class=\"bi bi-star-fill starbi\" data-v-6835481c></i> <i class=\"bi bi-star starbi\" data-v-6835481c></i> <i class=\"bi bi-star starbi\" data-v-6835481c></i> <p class=\"pt-2 ProductTitle\" data-v-6835481c>Sella body butter</p> <p class=\"ProductTitle\" data-v-6835481c>$350.00</p></div> <div class=\"col-6 col-lg-4 col-md-4\" data-v-6835481c><img" + _vm._ssrAttr("src", __webpack_require__(169)) + " alt=\"ProductOne\" class=\"pb-2 w-100\" data-v-6835481c> <i class=\"bi bi-star-fill starbi\" data-v-6835481c></i> <i class=\"bi bi-star-fill starbi\" data-v-6835481c></i> <i class=\"bi bi-star-fill starbi\" data-v-6835481c></i> <i class=\"bi bi-star starbi\" data-v-6835481c></i> <i class=\"bi bi-star starbi\" data-v-6835481c></i> <p class=\"pt-2 ProductTitle\" data-v-6835481c>Sella body butter</p> <p class=\"ProductTitle\" data-v-6835481c>$350.00</p></div> <div class=\"col-6 col-lg-4 col-md-4\" data-v-6835481c><img" + _vm._ssrAttr("src", __webpack_require__(170)) + " alt=\"ProductTwo\" class=\"pb-2 w-100\" data-v-6835481c> <i class=\"bi bi-star-fill starbi\" data-v-6835481c></i> <i class=\"bi bi-star-fill starbi\" data-v-6835481c></i> <i class=\"bi bi-star-fill starbi\" data-v-6835481c></i> <i class=\"bi bi-star starbi\" data-v-6835481c></i> <i class=\"bi bi-star starbi\" data-v-6835481c></i> <p class=\"pt-2 ProductTitle\" data-v-6835481c>Sella body butter</p> <p class=\"ProductTitle\" data-v-6835481c>$350.00</p></div></div></div></div></div></div></section> "), _c('TheFooter')], 2);
 };
 
 var staticRenderFns = [];
@@ -99,7 +99,7 @@ var staticRenderFns = [];
 // CONCATENATED MODULE: ./pages/products/index.vue?vue&type=template&id=6835481c&scoped=true&
 
 // EXTERNAL MODULE: ./components/Navigation/TheSubpageHeader.vue + 4 modules
-var TheSubpageHeader = __webpack_require__(90);
+var TheSubpageHeader = __webpack_require__(89);
 
 // EXTERNAL MODULE: ./components/TheFooter.vue + 4 modules
 var TheFooter = __webpack_require__(12);
@@ -124,7 +124,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(159)
+  var style0 = __webpack_require__(171)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -146,13 +146,13 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 77:
+/***/ 76:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(80);
+var content = __webpack_require__(79);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -164,19 +164,19 @@ module.exports.__inject__ = function (context) {
 
 /***/ }),
 
-/***/ 79:
+/***/ 78:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TheSubpageHeader_vue_vue_type_style_index_0_id_2b8ed65e_prod_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(77);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TheSubpageHeader_vue_vue_type_style_index_0_id_2b8ed65e_prod_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(76);
 /* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TheSubpageHeader_vue_vue_type_style_index_0_id_2b8ed65e_prod_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TheSubpageHeader_vue_vue_type_style_index_0_id_2b8ed65e_prod_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TheSubpageHeader_vue_vue_type_style_index_0_id_2b8ed65e_prod_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TheSubpageHeader_vue_vue_type_style_index_0_id_2b8ed65e_prod_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ 80:
+/***/ 79:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -190,7 +190,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 90:
+/***/ 89:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -202,7 +202,7 @@ var render = function render() {
 
   return _c('header', {
     staticClass: "SubPageMenuBkg position-relative mb-4"
-  }, [_vm._ssrNode("<div class=\"container py-4 d-none d-lg-block\" data-v-2b8ed65e>", "</div>", [_vm._ssrNode("<div class=\"row justify-content-between\" data-v-2b8ed65e>", "</div>", [_vm._ssrNode("<div class=\"col-lg-1\" data-v-2b8ed65e><img" + _vm._ssrAttr("src", __webpack_require__(38)) + " alt=\"logo\" class=\"logo\" data-v-2b8ed65e></div> "), _vm._ssrNode("<div class=\"col-auto col-lg-5 text-start pe-5\" data-v-2b8ed65e>", "</div>", [_vm._ssrNode("<nav class=\"navbar shadow-0 navbar-expand-lg py-4 pe-2\" data-v-2b8ed65e>", "</nav>", [_vm._ssrNode("<div id=\"navmenu\" class=\"collapse navbar-collapse\" data-v-2b8ed65e>", "</div>", [_vm._ssrNode("<ul class=\"navbar-nav\" data-v-2b8ed65e>", "</ul>", [_c('nuxt-link', {
+  }, [_vm._ssrNode("<div class=\"container py-4 d-none d-lg-block\" data-v-2b8ed65e>", "</div>", [_vm._ssrNode("<div class=\"row justify-content-between\" data-v-2b8ed65e>", "</div>", [_vm._ssrNode("<div class=\"col-lg-1\" data-v-2b8ed65e><img" + _vm._ssrAttr("src", __webpack_require__(37)) + " alt=\"logo\" class=\"logo\" data-v-2b8ed65e></div> "), _vm._ssrNode("<div class=\"col-auto col-lg-5 text-start pe-5\" data-v-2b8ed65e>", "</div>", [_vm._ssrNode("<nav class=\"navbar shadow-0 navbar-expand-lg py-4 pe-2\" data-v-2b8ed65e>", "</nav>", [_vm._ssrNode("<div id=\"navmenu\" class=\"collapse navbar-collapse\" data-v-2b8ed65e>", "</div>", [_vm._ssrNode("<ul class=\"navbar-nav\" data-v-2b8ed65e>", "</ul>", [_c('nuxt-link', {
     staticClass: "nav-link",
     attrs: {
       "to": "/"
@@ -247,7 +247,7 @@ var render = function render() {
     attrs: {
       "to": "/contact"
     }
-  }, [_vm._v("\n                  Contact\n                ")])], 1)], 2)])])]), _vm._ssrNode(" <div class=\"col-lg-3 text-end py-4 SearchForm\" data-v-2b8ed65e><div class=\"d-flex flex-row\" data-v-2b8ed65e><div class=\"form-outline\" data-v-2b8ed65e><input placeholder=\"Search...\" type=\"search\" id=\"form1\" class=\"form-control inputstyle\" data-v-2b8ed65e></div> <button type=\"button\"" + _vm._ssrClass("btn searchbtn rounded-circle", _vm.OnFocusCss) + " data-v-2b8ed65e><i class=\"bi bi-search searchicon\" data-v-2b8ed65e></i></button></div></div> "), _vm._ssrNode("<div class=\"col-lg-3 text-start py-4 d-flex flex-row flex-row-reverse\" data-v-2b8ed65e>", "</div>", [_c('TheNavMenu'), _vm._ssrNode(" <button type=\"button\" class=\"btn shopbtn\" data-v-2b8ed65e><i class=\"bi bi-bag shopicon\" data-v-2b8ed65e></i></button>")], 2)], 2)]), _vm._ssrNode(" <div class=\"container-full d-lg-none pt-3 px-4\" data-v-2b8ed65e><div class=\"row g-0 border-bottom pb-3\" data-v-2b8ed65e><div class=\"col-4\" data-v-2b8ed65e><div class=\"d-flex flex-row align-items-center mt-3\" data-v-2b8ed65e><img" + _vm._ssrAttr("src", __webpack_require__(39)) + " alt=\"search\" class=\"SearchIcon\" data-v-2b8ed65e> <div class=\"px-1\" data-v-2b8ed65e></div> <img" + _vm._ssrAttr("src", __webpack_require__(40)) + " alt=\"search\" class=\"ShopIcon\" data-v-2b8ed65e></div></div> <div class=\"col-4 text-center\" data-v-2b8ed65e><img" + _vm._ssrAttr("src", __webpack_require__(37)) + " alt=\"logo\" class=\"logo\" data-v-2b8ed65e></div> <div class=\"col-4 text-start\" data-v-2b8ed65e><img" + _vm._ssrAttr("src", __webpack_require__(41)) + " alt=\"menu\" class=\"MobileMenuIcon\" data-v-2b8ed65e></div></div></div> "), _vm.MobileMenu ? _c('TheMobileMenuModal', {
+  }, [_vm._v("\n                  Contact\n                ")])], 1)], 2)])])]), _vm._ssrNode(" <div class=\"col-lg-3 text-end py-4 SearchForm\" data-v-2b8ed65e><div class=\"d-flex flex-row\" data-v-2b8ed65e><div class=\"form-outline\" data-v-2b8ed65e><input placeholder=\"Search...\" type=\"search\" id=\"form1\" class=\"form-control inputstyle\" data-v-2b8ed65e></div> <button type=\"button\"" + _vm._ssrClass("btn searchbtn rounded-circle", _vm.OnFocusCss) + " data-v-2b8ed65e><i class=\"bi bi-search searchicon\" data-v-2b8ed65e></i></button></div></div> "), _vm._ssrNode("<div class=\"col-lg-3 text-start py-4 d-flex flex-row flex-row-reverse\" data-v-2b8ed65e>", "</div>", [_c('TheNavMenu'), _vm._ssrNode(" <button type=\"button\" class=\"btn shopbtn\" data-v-2b8ed65e><i class=\"bi bi-bag shopicon\" data-v-2b8ed65e></i></button>")], 2)], 2)]), _vm._ssrNode(" <div class=\"container-full d-lg-none pt-3 px-4\" data-v-2b8ed65e><div class=\"row g-0 border-bottom pb-3\" data-v-2b8ed65e><div class=\"col-4\" data-v-2b8ed65e><div class=\"d-flex flex-row align-items-center mt-3\" data-v-2b8ed65e><img" + _vm._ssrAttr("src", __webpack_require__(38)) + " alt=\"search\" class=\"SearchIcon\" data-v-2b8ed65e> <div class=\"px-1\" data-v-2b8ed65e></div> <img" + _vm._ssrAttr("src", __webpack_require__(39)) + " alt=\"search\" class=\"ShopIcon\" data-v-2b8ed65e></div></div> <div class=\"col-4 text-center\" data-v-2b8ed65e><img" + _vm._ssrAttr("src", __webpack_require__(36)) + " alt=\"logo\" class=\"logo\" data-v-2b8ed65e></div> <div class=\"col-4 text-start\" data-v-2b8ed65e><img" + _vm._ssrAttr("src", __webpack_require__(40)) + " alt=\"menu\" class=\"MobileMenuIcon\" data-v-2b8ed65e></div></div></div> "), _vm.MobileMenu ? _c('TheMobileMenuModal', {
     attrs: {
       "menu_status": _vm.MobileMenu
     },
@@ -321,7 +321,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(79)
+  var style0 = __webpack_require__(78)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -343,7 +343,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 94:
+/***/ 93:
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyBkYXRhLW5hbWU9Ikdyb3VwIDExNjI3IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOS41NTkiIGhlaWdodD0iMzkuNTU5IiB2aWV3Qm94PSIwIDAgMzkuNTU5IDM5LjU1OSI+CiAgICA8ZyBkYXRhLW5hbWU9IkNpcmNsZSBCRyIgc3R5bGU9ImZpbGw6I2U0ZTRlNDtzdHJva2U6I2U0ZTRlNDtzdHJva2UtbGluZWpvaW46cm91bmQiPgogICAgICAgIDxjaXJjbGUgY3g9IjE5Ljc3OSIgY3k9IjE5Ljc3OSIgcj0iMTkuNzc5IiBzdHlsZT0ic3Ryb2tlOm5vbmUiLz4KICAgICAgICA8Y2lyY2xlIGN4PSIxOS43NzkiIGN5PSIxOS43NzkiIHI9IjE5LjI3OSIgc3R5bGU9ImZpbGw6bm9uZSIvPgogICAgPC9nPgogICAgPHBhdGggZD0iTTYuNTc5IDE3LjI4NGgxMy4wNzJhMS4xNjkgMS4xNjkgMCAwIDAgLjgxOC0yTDEzLjk0NSA4Ljc2YTEuMTY5IDEuMTY5IDAgMCAwLTEuNjYgMEw1Ljc2IDE1LjI4NWExLjE2OSAxLjE2OSAwIDAgMCAuODE4IDJ6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2LjY2NCA1LjkzNikiIHN0eWxlPSJmaWxsOiMzYTNhM2EiLz4KPC9zdmc+Cg=="

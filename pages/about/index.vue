@@ -26,10 +26,10 @@
       <!-- Page Description2 -->
       <div class="container px-5 px-md-4 px-lg-4 py-5">
         <p class="DescTitle">
-          How did Kandaka Collections come about?
+          How did kandaka collections come about?
         </p>
         <p class="Desc">
-          Kandaka Collections is derived from the Nubian word Kandaka which means queen of the Old Nubian civilization.
+          Kandaka collections is derived from the nubian word kandaka which means queen of the old Nubian civilization.
           Currently, the word Kandaka is used to describe revolutionary women who stand for justice and change in Sudan.
           Like the Kandakas that lived throughout history and Kandakas who are currently living, I aspired to become like them. Someone one who stands for change and justice…… And the idea of creating a small business that provide people with affordable products that works for them and boosts their confidence and self-esteem.
         </p>
@@ -200,7 +200,10 @@ export default {
   color: #000;
 }
 
-  
+.accordion-body:first-letter {
+  text-transform: uppercase;
+}
+
 .accordion-button:not(.collapsed) {
   background-color: #e99d7b;
   color: #055452;
@@ -219,7 +222,10 @@ export default {
   font-size: 10pt;
   line-height: 1.5;
   color: #000;
+}
 
+.FaqDesc:first-letter {
+  text-transform: uppercase;
 }
 
 .faq {
@@ -230,6 +236,10 @@ export default {
   font-size: 16pt;
 }
 
+.faq:first-letter {
+  text-transform: capitalize;
+}
+
 .DescTitle {
   color: #055452;
   font-family: 'Open Sans';
@@ -237,10 +247,19 @@ export default {
   font-weight: 600;
 }
 
+.DescTitle:first-letter {
+  text-transform: capitalize;
+}
+
 .Desc {
   font-family: 'Open Sans';
   font-size: 11pt;
   color: #707070;
+}
+
+
+.Desc:first-letter {
+  text-transform: capitalize;
 }
 
 .PageBkg {
@@ -255,6 +274,11 @@ export default {
   font-size: 18pt;
   font-weight: 600;
   color: #231942;
+  text-transform: capitalize;
+}
+
+.PageTitle:first-letter {
+  text-transform: capitalize;
 }
 
 .BroadHome {
@@ -265,11 +289,19 @@ export default {
   font-size: 12pt;
 }
 
+.BroadHome:first-letter {
+  text-transform: capitalize;
+}
+
 .BroadSub {
   color: #055452;
   font-family: "Open Sans";
   font-weight: 600;
   line-height: 1.25;
   font-size: 12pt;
+}
+
+.BroadSub:first-letter {
+  text-transform: capitalize;
 }
 </style>

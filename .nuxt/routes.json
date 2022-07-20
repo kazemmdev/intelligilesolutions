@@ -6,6 +6,12 @@
     "chunkName": "pages/about/index"
   },
   {
+    "name": "admin",
+    "path": "/admin",
+    "component": "/home/pedram/Projects/intelligiledev/pages/admin/index.vue",
+    "chunkName": "pages/admin/index"
+  },
+  {
     "name": "cart",
     "path": "/cart",
     "component": "/home/pedram/Projects/intelligiledev/pages/cart/index.vue",

@@ -48,7 +48,7 @@
           </div>
           <div class="col-lg">
             <img src="~/assets/pictures/categorie2.png" alt="" class="w-100">
-            <p class="CategorieTxt text-center mt-3">Up Care</p>
+            <p class="CategorieTxt text-center mt-3">Lip Care</p>
           </div>
           <div class="col-lg">
             <img src="~/assets/pictures/categorie3.png" alt="" class="w-100">

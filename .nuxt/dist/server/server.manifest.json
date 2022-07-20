@@ -2,6 +2,7 @@
   "entry": "server.js",
   "files": {
     "pages/about/index.js": "pages/about/index.js",
+    "pages/admin/index.js": "pages/admin/index.js",
     "pages/cart/index.js": "pages/cart/index.js",
     "pages/comments/index.js": "pages/comments/index.js",
     "pages/contact/index.js": "pages/contact/index.js",
@@ -19,6 +20,7 @@
   },
   "maps": {
     "pages/about/index.js": "pages/about/index.js.map",
+    "pages/admin/index.js": "pages/admin/index.js.map",
     "pages/cart/index.js": "pages/cart/index.js.map",
     "pages/comments/index.js": "pages/comments/index.js.map",
     "pages/contact/index.js": "pages/contact/index.js.map",

@@ -79,15 +79,14 @@
           </form>
         </div>
         <div class="col-md-6 col-lg-6">
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79041.6241066565!2d-1.317627087803903!3d51.75039548720793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48713380adc41faf%3A0xc820dba8cb547402!2sOxford%2C%20UK!5e0!3m2!1sen!2s!4v1657945325020!5m2!1sen!2s" style="border:0; width: 100%; height: 50%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="d-none d-md-block d-lg-block MapColor text-center" style="width: 100%; height: 50%; position: relative;">
+               <img class="LogoImgStyle w-50" src="~/assets/pictures/logokandaka.svg" alt="logo" />
+          </div>
          <!-- info text -->
          <div class="container pt-3">
             <div class="row">
-                <div class="col-lg-6 col-md-6">
-
-                </div>
-                <div class="col-lg-6 col-md-6 ps-5">
-                </div>
+                <div class="col-lg-6 col-md-6"></div>
+                <div class="col-lg-6 col-md-6 ps-5"></div>
             </div>
          </div>
          <!-- mail and media -->
@@ -105,7 +104,6 @@
                     <i class="SocialIcons bi bi-facebook px-2"></i>
                     <i class="SocialIcons bi bi-tiktok px-2"></i>
                     <i class="SocialIcons bi bi-youtube px-2"></i>
-                    <i class="SocialIcons bi bi-whatsapp px-2"></i>
                     <i class="SocialIcons bi bi-instagram px-2"></i>
                 </div>
             </div>
@@ -130,6 +128,25 @@ export default {
 </script>
 
 <style scoped>
+
+.LogoImgStyle {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.MapColor {
+  background-color: #055452;
+  border-radius: 12px;
+}
+
 select {
   -webkit-appearance: none;
   -moz-appearance: none !important;

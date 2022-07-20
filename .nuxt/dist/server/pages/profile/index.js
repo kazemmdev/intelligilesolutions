@@ -1,5 +1,5 @@
 
-exports.ids = [10];
+exports.ids = [11];
 exports.modules = {
 
 /***/ 131:
@@ -8,7 +8,7 @@ exports.modules = {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(162);
+var content = __webpack_require__(174);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -20,7 +20,7 @@ module.exports.__inject__ = function (context) {
 
 /***/ }),
 
-/***/ 161:
+/***/ 173:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32,7 +32,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 162:
+/***/ 174:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -46,7 +46,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 196:
+/***/ 209:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -70,7 +70,7 @@ var staticRenderFns = [];
 // CONCATENATED MODULE: ./pages/profile/index.vue?vue&type=template&id=fdde200e&scoped=true&
 
 // EXTERNAL MODULE: ./components/Navigation/ProfileMenuList.vue + 4 modules
-var ProfileMenuList = __webpack_require__(33);
+var ProfileMenuList = __webpack_require__(32);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/profile/index.vue?vue&type=script&lang=js&
 
@@ -92,7 +92,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(161)
+  var style0 = __webpack_require__(173)
 if (style0.__inject__) style0.__inject__(context)
 
 }

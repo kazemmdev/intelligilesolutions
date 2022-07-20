@@ -47,7 +47,6 @@
                     <i class="SocialIcons bi bi-facebook px-2"></i>
                     <i class="SocialIcons bi bi-tiktok px-2"></i>
                     <i class="SocialIcons bi bi-youtube px-2"></i>
-                    <i class="SocialIcons bi bi-whatsapp px-2"></i>
                     <i class="SocialIcons bi bi-instagram px-2"></i>
                   </div>
                   <div class="col-lg-2">
@@ -114,7 +113,6 @@
                     <i class="SocialIcons bi bi-facebook px-2"></i>
                     <i class="SocialIcons bi bi-tiktok px-2"></i>
                     <i class="SocialIcons bi bi-youtube px-2"></i>
-                    <i class="SocialIcons bi bi-whatsapp px-2"></i>
                     <i class="SocialIcons bi bi-instagram px-2"></i>
                   </div>
                   <!-- footer links -->
@@ -148,14 +146,15 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-6">
-              <p class="CopyrightTxt">@2022 Kandaka collections Lic.All rights reserved.</p>
+              <p class="CopyrightTxt">
+                @2022 Kandaka Collections LLc.All rights reserved.
+              </p>
             </div>
             <div class="col-lg-6">
                  <div class="payments d-flex flex-row align-items-center">
                     <img class="px-2" src="~/assets/pictures/visa.svg" alt="visa">
                     <img class="px-2" src="~/assets/pictures/paypal.svg" alt="master">
                     <img class="px-2" src="~/assets/pictures/master.svg" alt="paypal">
-                    <img class="px-2" src="~/assets/pictures/bitcoin.svg" alt="bitcoin">
                 </div>
             </div>
           </div>
@@ -170,7 +169,7 @@
           <div class="row">
             <div class="col-lg-6">
               <p class="CopyrightTxt text-center">
-                @2022 Kandaka collections Lic.All rights reserved.
+                @2022 Kandaka Collections LLc.All rights reserved.
               </p>
             </div>
             <div class="col-lg-6">
@@ -178,7 +177,6 @@
                     <img class="px-1" src="~/assets/pictures/visa.svg" alt="visa">
                     <img class="px-0" src="~/assets/pictures/paypal.svg" alt="master">
                     <img class="px-1" src="~/assets/pictures/master.svg" alt="paypal">
-                    <img class="px-0" src="~/assets/pictures/bitcoin.svg" alt="bitcoin">
                 </div>
             </div>
           </div>
@@ -400,10 +398,11 @@ z-index: 1;
   font-family: 'Open Sans';
   font-weight: 600;
   font-size: 11pt;
+  text-transform: capitalize;
  }
 
  .payments {
   margin-top: 2%;
-  margin-left: 40%;
+  margin-left: 50%;
  }
 </style>
