@@ -66,7 +66,7 @@
                     <p class="FooterSubMenu">Scarf</p>
                   </div>
                   <div class="col-lg-2">
-                    <p  class="FooterMenu py-4">Contact information</p>
+                    <p style="white-space: nowrap;" class="FooterMenu py-4">Contact information</p>
                     <div class="d-flex flex-row align-items-center">
                     <i class="GmailIcon bi bi-envelope-fill"></i> 
                     <p class="FooterSubMenu ps-2 mt-2">kandakacollections@gmail.com</p>
@@ -169,7 +169,7 @@
           <div class="row">
             <div class="col-lg-6">
               <p class="CopyrightTxt text-center">
-                @2022 Kandaka Collections LLc.All rights reserved.
+                @2022 Kandaka Collections LLC.All rights reserved.
               </p>
             </div>
             <div class="col-lg-6">

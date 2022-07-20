@@ -7,13 +7,6 @@
   min-height: 100vh;
 }
 
-hr{
-  height: 1px !important;
-  color: #acaaaa !important;
-  width: 100%;
-  margin: 0 auto !important;
-}
-
 .nuxt-link-active {
   text-decoration: none !important;
 }

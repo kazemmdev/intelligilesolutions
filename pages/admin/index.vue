@@ -68,7 +68,6 @@ export default {
 
 <style scoped>
 
-.SearchStyle
 
 .IconDist {
     margin-top: 35px;

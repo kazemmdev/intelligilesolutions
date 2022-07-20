@@ -78,7 +78,7 @@
           </div>
           <div class="col col-md-4">
             <img src="~/assets/pictures/categorie2.png" alt="" class="w-100">
-            <p class="CategorieTxt text-center mt-3">Up Care</p>
+            <p class="CategorieTxt text-center mt-3">Lip Care</p>
           </div>
           <div class="col col-md-4">
             <img src="~/assets/pictures/categorie3.png" alt="" class="w-100">
@@ -100,9 +100,14 @@
               the customers of the cosmetics company.
             </p>
             <!-- slider arrows -->
-            <div class="d-flex flex-row align-items-center">
+            <div v-if="DspPrimeArrow" @mouseover="ChangeArrowState" class="d-flex flex-row align-items-center">
                 <img class="OffLeftArrow ArrowsPosition px-4" src="~/assets/pictures/LeftArrow.svg" alt="LeftArrow">
                 <img class="OffRightArrow" src="~/assets/pictures/RightArrow.svg" alt="RightArrow">
+            </div>
+            <!-- slider arrows oposite color -->
+            <div v-if="!DspPrimeArrow" @mouseover="ChangeArrowState" class="d-flex flex-row align-items-center">
+                <img style="transform: rotate(180deg);" class="OffLeftArrow px-4 ArrowsPosition" src="~/assets/pictures/RightArrow.svg" alt="RightArrow">
+                <img style="transform: rotate(180deg);" class="OffRightArrow" src="~/assets/pictures/LeftArrow.svg" alt="LeftArrow">
             </div>
           <img class="offimg d-none d-lg-block" src="~/assets/pictures/offimg.svg" alt="">
         </div>       
@@ -382,7 +387,16 @@ export default {
     TheFooter,
   },
 
-  methods: {}, 
+  data() {
+    return {
+      DspPrimeArrow: true
+    }
+  },
+  methods: {
+    ChangeArrowState() {
+      this.DspPrimeArrow = !this.DspPrimeArrow;
+    }
+  }, 
 
   mounted() {
     
@@ -509,13 +523,11 @@ export default {
 
 <style scoped>
 
-.OffRightArrow {
+.OffRightArrow, .OffLeftArrow  {
   cursor: pointer;
 }
 
-.OffLeftArrow {
-  cursor: pointer;
-}
+
 
 .SlideBtn {
   cursor: pointer;
