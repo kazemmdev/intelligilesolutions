@@ -1,0 +1,39 @@
+{
+  "entry": "server.js",
+  "files": {
+    "pages/about/index.js": "pages/about/index.js",
+    "pages/admin/index.js": "pages/admin/index.js",
+    "pages/cart/index.js": "pages/cart/index.js",
+    "pages/comments/index.js": "pages/comments/index.js",
+    "pages/contact/index.js": "pages/contact/index.js",
+    "pages/index.js": "pages/index.js",
+    "pages/login/index.js": "pages/login/index.js",
+    "pages/orders/index.js": "pages/orders/index.js",
+    "pages/products/index.js": "pages/products/index.js",
+    "pages/profile/edit/index.js": "pages/profile/edit/index.js",
+    "pages/profile/index.js": "pages/profile/index.js",
+    "pages/saved/index.js": "pages/saved/index.js",
+    "pages/signup/index.js": "pages/signup/index.js",
+    "pages/supports/_id/index.js": "pages/supports/_id/index.js",
+    "pages/supports/index.js": "pages/supports/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "pages/about/index.js": "pages/about/index.js.map",
+    "pages/admin/index.js": "pages/admin/index.js.map",
+    "pages/cart/index.js": "pages/cart/index.js.map",
+    "pages/comments/index.js": "pages/comments/index.js.map",
+    "pages/contact/index.js": "pages/contact/index.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/login/index.js": "pages/login/index.js.map",
+    "pages/orders/index.js": "pages/orders/index.js.map",
+    "pages/products/index.js": "pages/products/index.js.map",
+    "pages/profile/edit/index.js": "pages/profile/edit/index.js.map",
+    "pages/profile/index.js": "pages/profile/index.js.map",
+    "pages/saved/index.js": "pages/saved/index.js.map",
+    "pages/signup/index.js": "pages/signup/index.js.map",
+    "pages/supports/_id/index.js": "pages/supports/_id/index.js.map",
+    "pages/supports/index.js": "pages/supports/index.js.map",
+    "server.js": "server.js.map"
+  }
+}
