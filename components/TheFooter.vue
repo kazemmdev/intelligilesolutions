@@ -21,7 +21,8 @@
               <div class="col-lg-6 text-center">
                    <div class="d-flex flex-row FormSection">
                           <div class="form-outline">
-                            <input placeholder="Enter your email" type="search" id="form2" class="form-control ContactInputStyle" />
+                            <input type="search" id="form2" class="form-control ContactInputStyle" />
+                            <label class="FormLabel" for="form2">Enter your email</label>
                           </div>
                           <button type="button" class="btn ContactBtn">
                             <i class="bi bi-forward ContactIcon"></i>
@@ -47,6 +48,7 @@
                     <i class="SocialIcons bi bi-facebook px-2"></i>
                     <i class="SocialIcons bi bi-tiktok px-2"></i>
                     <i class="SocialIcons bi bi-youtube px-2"></i>
+                    <i class="SocialIcons bi bi-whatsapp px-2"></i>
                     <i class="SocialIcons bi bi-instagram px-2"></i>
                   </div>
                   <div class="col-lg-2">
@@ -66,7 +68,7 @@
                     <p class="FooterSubMenu">Scarf</p>
                   </div>
                   <div class="col-lg-2">
-                    <p style="white-space: nowrap;" class="FooterMenu py-4">Contact information</p>
+                    <p class="FooterMenu py-4">Contact information</p>
                     <div class="d-flex flex-row align-items-center">
                     <i class="GmailIcon bi bi-envelope-fill"></i> 
                     <p class="FooterSubMenu ps-2 mt-2">kandakacollections@gmail.com</p>
@@ -113,6 +115,7 @@
                     <i class="SocialIcons bi bi-facebook px-2"></i>
                     <i class="SocialIcons bi bi-tiktok px-2"></i>
                     <i class="SocialIcons bi bi-youtube px-2"></i>
+                    <i class="SocialIcons bi bi-whatsapp px-2"></i>
                     <i class="SocialIcons bi bi-instagram px-2"></i>
                   </div>
                   <!-- footer links -->
@@ -146,15 +149,14 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-6">
-              <p class="CopyrightTxt">
-                @2022 Kandaka Collections LLc.All rights reserved.
-              </p>
+              <p class="CopyrightTxt">@2022 Kandaka collections Lic.All rights reserved.</p>
             </div>
             <div class="col-lg-6">
                  <div class="payments d-flex flex-row align-items-center">
                     <img class="px-2" src="~/assets/pictures/visa.svg" alt="visa">
                     <img class="px-2" src="~/assets/pictures/paypal.svg" alt="master">
                     <img class="px-2" src="~/assets/pictures/master.svg" alt="paypal">
+                    <img class="px-2" src="~/assets/pictures/bitcoin.svg" alt="bitcoin">
                 </div>
             </div>
           </div>
@@ -169,7 +171,7 @@
           <div class="row">
             <div class="col-lg-6">
               <p class="CopyrightTxt text-center">
-                @2022 Kandaka Collections LLC.All rights reserved.
+                @2022 Kandaka collections Lic.All rights reserved.
               </p>
             </div>
             <div class="col-lg-6">
@@ -177,6 +179,7 @@
                     <img class="px-1" src="~/assets/pictures/visa.svg" alt="visa">
                     <img class="px-0" src="~/assets/pictures/paypal.svg" alt="master">
                     <img class="px-1" src="~/assets/pictures/master.svg" alt="paypal">
+                    <img class="px-0" src="~/assets/pictures/bitcoin.svg" alt="bitcoin">
                 </div>
             </div>
           </div>
@@ -193,18 +196,6 @@ export default {
 </script>
 
 <style scoped>
-
-::placeholder {
-  position: absolute;
-  color: #a1a2a1;
-  top: 10px;
-  right: 170px;
-  font-family: 'Open Sans';
-  font-size: 8pt;
-  font-style: italic;
-  font-weight: normal;
-  opacity: 1 !important;
-}
 /* Footer section */
 .FooterBkg {
   background-image: url("~assets/pictures/footerbkg.svg");
@@ -311,7 +302,7 @@ z-index: 1;
  .FooterLogoTxt {
   font-family: 'Open Sans';
   font-weight: 600;
-  font-size: 10pt;
+  font-size: 12pt;
   color: #fafafa;
   text-align: left;
  }
@@ -319,7 +310,7 @@ z-index: 1;
  .FooterMobileLogoTxt {
   font-family: 'Open Sans';
   font-weight: 600;
-  font-size: 10pt;
+  font-size: 12pt;
   color: #fafafa;
   text-align: center;
  }
@@ -398,11 +389,10 @@ z-index: 1;
   font-family: 'Open Sans';
   font-weight: 600;
   font-size: 11pt;
-  text-transform: capitalize;
  }
 
  .payments {
   margin-top: 2%;
-  margin-left: 50%;
+  margin-left: 40%;
  }
 </style>

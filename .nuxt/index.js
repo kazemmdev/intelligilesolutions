@@ -13,7 +13,9 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_portalvue_432ea438 from 'nuxt_plugin_portalvue_432ea438' // Source: ./portal-vue.js (mode: 'all')
+import nuxt_plugin_portalvue_0639135e from 'nuxt_plugin_portalvue_0639135e' // Source: ./portal-vue.js (mode: 'all')
+import nuxt_plugin_axios_09ea5e15 from 'nuxt_plugin_axios_09ea5e15' // Source: ./axios.js (mode: 'all')
+import nuxt_plugin_axios_5659d192 from 'nuxt_plugin_axios_5659d192' // Source: ../plugins/axios.js (mode: 'all')
 import nuxt_plugin_ckeditor_01e62ccc from 'nuxt_plugin_ckeditor_01e62ccc' // Source: ../plugins/ckeditor.js (mode: 'client')
 
 // Component: <ClientOnly>
@@ -211,8 +213,16 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_portalvue_432ea438 === 'function') {
-    await nuxt_plugin_portalvue_432ea438(app.context, inject)
+  if (typeof nuxt_plugin_portalvue_0639135e === 'function') {
+    await nuxt_plugin_portalvue_0639135e(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_axios_09ea5e15 === 'function') {
+    await nuxt_plugin_axios_09ea5e15(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_axios_5659d192 === 'function') {
+    await nuxt_plugin_axios_5659d192(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_ckeditor_01e62ccc === 'function') {

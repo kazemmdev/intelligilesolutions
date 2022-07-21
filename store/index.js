@@ -13,6 +13,10 @@ const createStore = () => {
         mutations: {
             setPosts(state, posts) {
                 state.loadedPosts = posts;
+            },
+
+            SET_USER(state, user) {
+                state.user = user
             }
         },
         actions: {
@@ -32,7 +36,16 @@ const createStore = () => {
 
             setPosts(vuexContext, posts) {
                 vuexContext.commit("setPosts", posts);
-            }
+            },
+
+            setUser({commit}, {user}) {
+                commit('SET_USER', user);
+            },
+
+            async fetchUser({dispatch}) {
+                const response = await this.$api.get('/user');
+                dispatch('setUser', {user: response.data.payload})
+            },
         },
         getters: {
             loadedPosts(state) {

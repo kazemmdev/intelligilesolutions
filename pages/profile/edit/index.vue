@@ -14,7 +14,7 @@
     </Portal>
 
     <h3 class="pb-2">Personal Information</h3>
-    <div class="container">
+    <div class="container g-2">
       <div class="row border rounded-3">
         <div class="col-md-12 col-lg-6 border-bottom border-r">
           <input-field v-model="fullName" name="full_name" title="Full Name" placeholder="Please Enter your full name" :optional="true"/>
@@ -32,7 +32,7 @@
     </div>
 
     <h3 class="pb-2 pt-5">Address Information</h3>
-    <div class="container">
+    <div class="container g-2">
       <div class="row border rounded-3">
         <div class="col-md-12 col-lg-6 border-bottom border-r">
           <input-field v-model="firstName" name="fist_name" title="First name" placeholder="Please Enter your first name"/>
@@ -67,16 +67,19 @@
 
     <h3 class="pb-2 pt-5">Payment Method</h3>
     <span class="text-black-50">Choose your payment method below</span>
-    <div class="container mb-2">
-      <div class="row flex flex-wrap py-4">
+    <div class="container g-2 mb-2">
+      <div class="row flex flex-wrap py-4 gap-2">
         <bank-card bank="paypal" :number="card" :select="cardSelected==='paypal'" @click.native="cardSelected='paypal'"/>
         <bank-card bank="master" :number="card" :select="cardSelected==='master'" @click.native="cardSelected='master'"/>
         <bank-card/>
       </div>
     </div>
 
-    <h3 class="pb-2 pt-5">Village Bank</h3>
-    <div class="container mb-10">
+    <div class="d-flex align-items-center gap-3 pt-5 pb-4">
+      <span class="circle">1</span>
+      <h3 class="mb-0">Village Bank</h3>
+    </div>
+    <div class="container g-2 mb-10">
       <div class="row border rounded-3">
         <div class="col-md-12 col-lg-6 border-bottom border-r">
           <input-field v-model="firstName" name="fist_name" title="First name" placeholder="Please Enter your first name"/>
@@ -155,5 +158,20 @@ export default {
 .form-label {
   font-size: 14px;
   color: #838383;
+}
+
+.circle {
+  background-color: white;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  width: 38px;
+  padding: 10px;
+  border: 2px solid #055452;
+  color: #055452;
+  font-size: 24px;
 }
 </style>

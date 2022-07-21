@@ -60,6 +60,10 @@ export default {
 </script>
 
 <style scoped>
+.text-danger {
+  color: #ff0000 !important;
+}
+
 .input-field {
   position: relative;
   display: flex;

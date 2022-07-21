@@ -2,91 +2,106 @@
   {
     "name": "about",
     "path": "/about",
-    "component": "/home/pedram/Projects/intelligiledev/pages/about/index.vue",
-    "chunkName": "pages/about/index"
+    "component": "/home/kazem/Desktop/intelligilesolutions/pages/about/index.vue",
+    "chunkName": "pages/about/index",
+    "_name": "_0adbd527"
   },
   {
     "name": "admin",
     "path": "/admin",
-    "component": "/home/pedram/Projects/intelligiledev/pages/admin/index.vue",
-    "chunkName": "pages/admin/index"
+    "component": "/home/kazem/Desktop/intelligilesolutions/pages/admin/index.vue",
+    "chunkName": "pages/admin/index",
+    "_name": "_17e16a69"
   },
   {
     "name": "cart",
     "path": "/cart",
-    "component": "/home/pedram/Projects/intelligiledev/pages/cart/index.vue",
-    "chunkName": "pages/cart/index"
+    "component": "/home/kazem/Desktop/intelligilesolutions/pages/cart/index.vue",
+    "chunkName": "pages/cart/index",
+    "_name": "_0008e0c8"
   },
   {
     "name": "comments",
     "path": "/comments",
-    "component": "/home/pedram/Projects/intelligiledev/pages/comments/index.vue",
-    "chunkName": "pages/comments/index"
+    "component": "/home/kazem/Desktop/intelligilesolutions/pages/comments/index.vue",
+    "chunkName": "pages/comments/index",
+    "_name": "_21fae0f0"
   },
   {
     "name": "contact",
     "path": "/contact",
-    "component": "/home/pedram/Projects/intelligiledev/pages/contact/index.vue",
-    "chunkName": "pages/contact/index"
+    "component": "/home/kazem/Desktop/intelligilesolutions/pages/contact/index.vue",
+    "chunkName": "pages/contact/index",
+    "_name": "_ed14738c"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "/home/pedram/Projects/intelligiledev/pages/login/index.vue",
-    "chunkName": "pages/login/index"
+    "component": "/home/kazem/Desktop/intelligilesolutions/pages/login/index.vue",
+    "chunkName": "pages/login/index",
+    "_name": "_11c47e03"
   },
   {
     "name": "orders",
     "path": "/orders",
-    "component": "/home/pedram/Projects/intelligiledev/pages/orders/index.vue",
-    "chunkName": "pages/orders/index"
+    "component": "/home/kazem/Desktop/intelligilesolutions/pages/orders/index.vue",
+    "chunkName": "pages/orders/index",
+    "_name": "_b7351e3e"
   },
   {
     "name": "products",
     "path": "/products",
-    "component": "/home/pedram/Projects/intelligiledev/pages/products/index.vue",
-    "chunkName": "pages/products/index"
+    "component": "/home/kazem/Desktop/intelligilesolutions/pages/products/index.vue",
+    "chunkName": "pages/products/index",
+    "_name": "_efed6f40"
   },
   {
     "name": "profile",
     "path": "/profile",
-    "component": "/home/pedram/Projects/intelligiledev/pages/profile/index.vue",
-    "chunkName": "pages/profile/index"
+    "component": "/home/kazem/Desktop/intelligilesolutions/pages/profile/index.vue",
+    "chunkName": "pages/profile/index",
+    "_name": "_46769483"
   },
   {
     "name": "saved",
     "path": "/saved",
-    "component": "/home/pedram/Projects/intelligiledev/pages/saved/index.vue",
-    "chunkName": "pages/saved/index"
+    "component": "/home/kazem/Desktop/intelligilesolutions/pages/saved/index.vue",
+    "chunkName": "pages/saved/index",
+    "_name": "_369b2fa1"
   },
   {
     "name": "signup",
     "path": "/signup",
-    "component": "/home/pedram/Projects/intelligiledev/pages/signup/index.vue",
-    "chunkName": "pages/signup/index"
+    "component": "/home/kazem/Desktop/intelligilesolutions/pages/signup/index.vue",
+    "chunkName": "pages/signup/index",
+    "_name": "_62919b54"
   },
   {
     "name": "supports",
     "path": "/supports",
-    "component": "/home/pedram/Projects/intelligiledev/pages/supports/index.vue",
-    "chunkName": "pages/supports/index"
+    "component": "/home/kazem/Desktop/intelligilesolutions/pages/supports/index.vue",
+    "chunkName": "pages/supports/index",
+    "_name": "_e3dbed00"
   },
   {
     "name": "profile-edit",
     "path": "/profile/edit",
-    "component": "/home/pedram/Projects/intelligiledev/pages/profile/edit/index.vue",
-    "chunkName": "pages/profile/edit/index"
+    "component": "/home/kazem/Desktop/intelligilesolutions/pages/profile/edit/index.vue",
+    "chunkName": "pages/profile/edit/index",
+    "_name": "_e2e673a8"
   },
   {
     "name": "supports-id",
     "path": "/supports/:id",
-    "component": "/home/pedram/Projects/intelligiledev/pages/supports/_id/index.vue",
-    "chunkName": "pages/supports/_id/index"
+    "component": "/home/kazem/Desktop/intelligilesolutions/pages/supports/_id/index.vue",
+    "chunkName": "pages/supports/_id/index",
+    "_name": "_31ca646b"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/home/pedram/Projects/intelligiledev/pages/index.vue",
-    "chunkName": "pages/index"
+    "component": "/home/kazem/Desktop/intelligilesolutions/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_2d7ff469"
   }
 ]

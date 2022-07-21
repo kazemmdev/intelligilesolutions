@@ -92,78 +92,39 @@
                 <!-- products list -->
                 <div class="container px-0">
                     <div class="row">
-                             <!-- Product One -->
+                         <!-- Product One -->
                         <div class="col-6 col-lg-4 col-md-4">
-                            <img src="~/assets/pictures/ProductTwo.jpg" class="pb-2 w-100" alt="ProductTwo">
-                            <div class="d-lg-flex">
-                              <!-- star -->
-                             <div>
+                            <img src="~/assets/pictures/ProductThree.jpg" class="pb-2 w-100" alt="ProductThree">
                             <i class="bi bi-star-fill starbi"></i>
                             <i class="bi bi-star-fill starbi"></i>
                             <i class="bi bi-star-fill starbi"></i>
                             <i class="bi bi-star starbi"></i>
                             <i class="bi bi-star starbi"></i>
-                              </div>
-                              <!-- stars count -->
-                              <div>
-                                <p class="m-0 my-1  StartCount px-1">(5000)</p>
-                              </div>
-                                <!-- reviews count --> 
-                              <div class="ms-auto">
-                                  <p class="m-0 mb-2 mt-lg-1 mb-md-1 reviews text-muted">150 reviews</p>
-                              </div>
-                            </div>
                             <p class="pt-2 ProductTitle">Sella body butter</p>
                             <p class="ProductTitle">$350.00</p>
                         </div>
-                           <!-- Product Two -->
+                         <!-- Product Two -->
                         <div class="col-6 col-lg-4 col-md-4">
-                            <img src="~/assets/pictures/ProductThree.jpg" class="pb-2 w-100" alt="ProductTwo">
-                            <div class="d-lg-flex">
-                              <!-- star -->
-                             <div>
+                            <img src="~/assets/pictures/ProductOne.jpg" class="pb-2 w-100" alt="ProductOne">
                             <i class="bi bi-star-fill starbi"></i>
                             <i class="bi bi-star-fill starbi"></i>
                             <i class="bi bi-star-fill starbi"></i>
                             <i class="bi bi-star starbi"></i>
                             <i class="bi bi-star starbi"></i>
-                              </div>
-                              <!-- stars count -->
-                              <div>
-                                <p class="m-0 my-1  StartCount px-1">(5000)</p>
-                              </div>
-                                <!-- reviews count --> 
-                              <div class="ms-auto">
-                                  <p class="m-0 mb-2 mt-lg-1 mb-md-1 reviews text-muted">150 reviews</p>
-                              </div>
-                            </div>
                             <p class="pt-2 ProductTitle">Sella body butter</p>
                             <p class="ProductTitle">$350.00</p>
                         </div>
                          <!-- Product Three -->
                         <div class="col-6 col-lg-4 col-md-4">
-                            <img src="~/assets/pictures/ProductOne.jpg" class="pb-2 w-100" alt="ProductTwo">
-                            <div class="d-lg-flex">
-                              <!-- star -->
-                             <div>
+                            <img src="~/assets/pictures/ProductTwo.jpg" class="pb-2 w-100" alt="ProductTwo">
                             <i class="bi bi-star-fill starbi"></i>
                             <i class="bi bi-star-fill starbi"></i>
                             <i class="bi bi-star-fill starbi"></i>
                             <i class="bi bi-star starbi"></i>
                             <i class="bi bi-star starbi"></i>
-                              </div>
-                              <!-- stars count -->
-                              <div>
-                                <p class="m-0 my-1  StartCount px-1">(5000)</p>
-                              </div>
-                                <!-- reviews count --> 
-                              <div class="ms-auto">
-                                  <p class="m-0 mb-2 mt-lg-1 mb-md-1 reviews text-muted">150 reviews</p>
-                              </div>
-                            </div>
                             <p class="pt-2 ProductTitle">Sella body butter</p>
                             <p class="ProductTitle">$350.00</p>
-                        </div>              
+                        </div>
                     </div>
                 </div>
             </div>
@@ -187,36 +148,6 @@ export default {
 </script>
 
 <style scoped>
-
-hr{
-  height: 1px !important;
-  color: #acaaaa !important;
-  width: 100%;
-  margin: 0 auto !important;
-}
-
-.reviews {
-  font-size: 11px;
-}
-
-.StartCount {
-  font-size: 12px;
-  color: #e99d7b;
-  margin-top: 5px;
-}
-
-
-.CatTxt:hover {
-  cursor: pointer;
-  color: #e99d7b;
-  transition: 0.5s;
-}
-
-.CategorieTxt:hover {
-  cursor: pointer;
-  color: #e99d7b;
-  transition: 0.5s;
-}
 
 button {
   color: #5a5a5a;

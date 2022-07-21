@@ -69,6 +69,19 @@ export default {
   font-size: 16px;
 }
 
+.form-select {
+  display: block;
+  width: 100%;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-left: 15px;
+  background-image: url('~/assets/svg/selection.svg') !important;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  appearance: none;
+}
+
 .ck.ck-editor {
   width: 100% !important;
 }

@@ -1,7 +1,7 @@
 <template>
   <div class="menu" :class="{'menu-light':isLight}">
     <div class="menu-header">
-      <img src="~/assets/svg/user.svg" alt="">
+      <img src="~/assets/svg/yuser.svg" alt="">
       <div>
         <h3>{{ user.name }}</h3>
         <span>{{ user.email }}</span>
@@ -147,6 +147,17 @@ export default {
 
 .menu-item:hover, .nuxt-link-exact-active {
   color: #222;
+  position: relative;
+}
+
+.nuxt-link-exact-active:before {
+  content: '';
+  position: absolute;
+  background-color: #222;
+  width: 4px;
+  left: -25px;
+  top: -18px;
+  height: 56px;
 }
 
 .menu-item-text {

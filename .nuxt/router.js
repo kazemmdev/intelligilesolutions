@@ -4,21 +4,21 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _3e9ed0fe = () => interopDefault(import('../pages/about/index.vue' /* webpackChunkName: "pages/about/index" */))
-const _2493a67a = () => interopDefault(import('../pages/admin/index.vue' /* webpackChunkName: "pages/admin/index" */))
-const _61b81a02 = () => interopDefault(import('../pages/cart/index.vue' /* webpackChunkName: "pages/cart/index" */))
-const _38006f54 = () => interopDefault(import('../pages/comments/index.vue' /* webpackChunkName: "pages/comments/index" */))
-const _3d235a14 = () => interopDefault(import('../pages/contact/index.vue' /* webpackChunkName: "pages/contact/index" */))
-const _30cd7f46 = () => interopDefault(import('../pages/login/index.vue' /* webpackChunkName: "pages/login/index" */))
-const _edae0c72 = () => interopDefault(import('../pages/orders/index.vue' /* webpackChunkName: "pages/orders/index" */))
-const _4a0e2fc6 = () => interopDefault(import('../pages/products/index.vue' /* webpackChunkName: "pages/products/index" */))
-const _0bb7af46 = () => interopDefault(import('../pages/profile/index.vue' /* webpackChunkName: "pages/profile/index" */))
-const _0c6ff1fb = () => interopDefault(import('../pages/saved/index.vue' /* webpackChunkName: "pages/saved/index" */))
-const _4755243a = () => interopDefault(import('../pages/signup/index.vue' /* webpackChunkName: "pages/signup/index" */))
-const _5016f0e6 = () => interopDefault(import('../pages/supports/index.vue' /* webpackChunkName: "pages/supports/index" */))
-const _6b638a92 = () => interopDefault(import('../pages/profile/edit/index.vue' /* webpackChunkName: "pages/profile/edit/index" */))
-const _0ea128d1 = () => interopDefault(import('../pages/supports/_id/index.vue' /* webpackChunkName: "pages/supports/_id/index" */))
-const _29440243 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _0adbd527 = () => interopDefault(import('../pages/about/index.vue' /* webpackChunkName: "pages/about/index" */))
+const _17e16a69 = () => interopDefault(import('../pages/admin/index.vue' /* webpackChunkName: "pages/admin/index" */))
+const _0008e0c8 = () => interopDefault(import('../pages/cart/index.vue' /* webpackChunkName: "pages/cart/index" */))
+const _21fae0f0 = () => interopDefault(import('../pages/comments/index.vue' /* webpackChunkName: "pages/comments/index" */))
+const _ed14738c = () => interopDefault(import('../pages/contact/index.vue' /* webpackChunkName: "pages/contact/index" */))
+const _11c47e03 = () => interopDefault(import('../pages/login/index.vue' /* webpackChunkName: "pages/login/index" */))
+const _b7351e3e = () => interopDefault(import('../pages/orders/index.vue' /* webpackChunkName: "pages/orders/index" */))
+const _efed6f40 = () => interopDefault(import('../pages/products/index.vue' /* webpackChunkName: "pages/products/index" */))
+const _46769483 = () => interopDefault(import('../pages/profile/index.vue' /* webpackChunkName: "pages/profile/index" */))
+const _369b2fa1 = () => interopDefault(import('../pages/saved/index.vue' /* webpackChunkName: "pages/saved/index" */))
+const _62919b54 = () => interopDefault(import('../pages/signup/index.vue' /* webpackChunkName: "pages/signup/index" */))
+const _e3dbed00 = () => interopDefault(import('../pages/supports/index.vue' /* webpackChunkName: "pages/supports/index" */))
+const _e2e673a8 = () => interopDefault(import('../pages/profile/edit/index.vue' /* webpackChunkName: "pages/profile/edit/index" */))
+const _31ca646b = () => interopDefault(import('../pages/supports/_id/index.vue' /* webpackChunkName: "pages/supports/_id/index" */))
+const _2d7ff469 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -33,63 +33,63 @@ export const routerOptions = {
 
   routes: [{
     path: "/about",
-    component: _3e9ed0fe,
+    component: _0adbd527,
     name: "about"
   }, {
     path: "/admin",
-    component: _2493a67a,
+    component: _17e16a69,
     name: "admin"
   }, {
     path: "/cart",
-    component: _61b81a02,
+    component: _0008e0c8,
     name: "cart"
   }, {
     path: "/comments",
-    component: _38006f54,
+    component: _21fae0f0,
     name: "comments"
   }, {
     path: "/contact",
-    component: _3d235a14,
+    component: _ed14738c,
     name: "contact"
   }, {
     path: "/login",
-    component: _30cd7f46,
+    component: _11c47e03,
     name: "login"
   }, {
     path: "/orders",
-    component: _edae0c72,
+    component: _b7351e3e,
     name: "orders"
   }, {
     path: "/products",
-    component: _4a0e2fc6,
+    component: _efed6f40,
     name: "products"
   }, {
     path: "/profile",
-    component: _0bb7af46,
+    component: _46769483,
     name: "profile"
   }, {
     path: "/saved",
-    component: _0c6ff1fb,
+    component: _369b2fa1,
     name: "saved"
   }, {
     path: "/signup",
-    component: _4755243a,
+    component: _62919b54,
     name: "signup"
   }, {
     path: "/supports",
-    component: _5016f0e6,
+    component: _e3dbed00,
     name: "supports"
   }, {
     path: "/profile/edit",
-    component: _6b638a92,
+    component: _e2e673a8,
     name: "profile-edit"
   }, {
     path: "/supports/:id",
-    component: _0ea128d1,
+    component: _31ca646b,
     name: "supports-id"
   }, {
     path: "/",
-    component: _29440243,
+    component: _2d7ff469,
     name: "index"
   }],
 

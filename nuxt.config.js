@@ -44,19 +44,22 @@ export default {
         '~/assets/bootstrap/css/bootstrap.rtl.min.css',
     ],
 
+
     /*
     ** Plugins to load before mounting the App
     */
     plugins: [
-        {
-            src: '~/plugins/ckeditor.js', ssr: false
-        }
+        {src: '~/plugins/axios.js'},
+        {src: '~/plugins/ckeditor.js', ssr: false}
     ],
 
     /*
     ** Nuxt.js modules
     */
-    modules: ['portal-vue/nuxt'],
+    modules: [
+        '@nuxtjs/axios',
+        'portal-vue/nuxt'
+    ],
 
     /*
     ** Build configuration

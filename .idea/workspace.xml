@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae1c3ec8-1c9e-4f25-b7e2-ad65f7155399" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/loggedIn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/axios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/components/nuxt-error.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/components/nuxt-error.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/03fa161.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/08448cb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/1913cc5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/2c33432.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/3531765.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/373355f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/3a18d73.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/4ce537b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/4f04a18.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/5c5a084.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/66a9bd9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/67994c6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/7bd96c3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/8318cf0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/8e67e1f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/90e06a0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/LICENSES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/bf8c883.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/d670a67.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/dbdc57d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/404error.544bfe6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/AdminSidebar.1433b1f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/FoooterLogo.1f53d99.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/FooterFormBkg.5863fa0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/GoogleIcon.6aa47a8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/LeftArrow.83bc993.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/LoginBkgPic.8184d67.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/MbFtBkg.01c680f.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/OffSinglePicBackground.b00305b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/PageBack.65d22f9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/ProductOne.3cad331.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/ProductThree.cbf6bb5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/ProductTwo.ad4a802.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/RightArrow.6c05bc4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/SignUpRight.f052275.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/SliderMbBkg.c8967e3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/bodybackground.4480339.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/categorie1.17d94af.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/categorie2.455baaf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/categorie3.e131405.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/categorie4.64e1739.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/categorie5.91fc38a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/contactbg.b26bf8c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/credits.ee46012.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/footerbkg.7bf151a.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/logokandaka.60c1fba.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/logokandaka.ca55b0a.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/master.477d611.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/mastercard.93641fb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/off1.b7de98e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/off2.8e3ee16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/off3.7490d62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/offimg.0eb2451.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/paypal.2326022.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/paypal.f739a1a.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/sliderback.f6c91be.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/img/subadmin.58ef83c.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/ast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/de-ch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/en-au.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/en-gb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/eo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/gu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/kn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/ku.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/ne.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/oc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/si.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/sr-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/tk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/tt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/ug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/translations/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/client.manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/index.spa.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/index.ssr.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/about/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/about/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/admin/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/admin/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/cart/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/cart/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/comments/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/comments/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/contact/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/contact/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/login/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/login/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/orders/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/orders/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/products/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/products/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/profile/edit/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/profile/edit/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/profile/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/profile/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/saved/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/saved/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/signup/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/signup/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/supports/_id/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/supports/_id/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/supports/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/pages/supports/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/server.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/server.manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/loading.html" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/loading.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/middleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/mixins/fetch.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/mixins/fetch.server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/routes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/views/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/views/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/BankCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/BankCard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/InputField.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/InputField.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Modal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Modal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navigation/ProfileMenuList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navigation/ProfileMenuList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/NewTicketBox.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/NewTicketBox.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/TextEditor.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/TextEditor.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/TheFooter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/TheFooter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/profile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/profile.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/products/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/products/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/profile/edit/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/profile/edit/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2C3DkXOVSNMz5jjz2gNAR6gF2V9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/kazem/Desktop/intelligilesolutions/components",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true",
+    "vuejs.nuxt.types-notification-shown": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/plugins" />
+      <recent name="$PROJECT_DIR$/assets/svg" />
+      <recent name="$PROJECT_DIR$/assets/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/middleware" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/assets/svg" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae1c3ec8-1c9e-4f25-b7e2-ad65f7155399" name="Changes" comment="" />
+      <created>1658022518438</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658022518438</updated>
+      <workItem from="1658022519768" duration="54084000" />
+      <workItem from="1658112913123" duration="33065000" />
+      <workItem from="1658219595207" duration="1271000" />
+      <workItem from="1658231231222" duration="94000" />
+      <workItem from="1658231363974" duration="202000" />
+      <workItem from="1658231591962" duration="6860000" />
+      <workItem from="1658242560277" duration="363000" />
+      <workItem from="1658379848276" duration="1381000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

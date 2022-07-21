@@ -49,7 +49,7 @@ export default {
 .bank-card {
   position: relative;
   height: 180px;
-  width: 300px;
+  width: 280px;
   border-radius: 24px;
   margin-right: 10px;
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16);
