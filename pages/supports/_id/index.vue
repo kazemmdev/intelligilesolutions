@@ -114,6 +114,18 @@ export default {
         },
       ]
     }
+  },
+  mounted() {
+    this.fetch()
+  },
+  methods:{
+    async fetch() {
+      await this.$api.get('/wp/v2/ticketanswer').then(response=>{
+        console.log(response)
+      }).catch(error => {
+        console.log(error)
+      })
+    }
   }
 }
 </script>

@@ -3,105 +3,90 @@
     "name": "about",
     "path": "/about",
     "component": "/home/kazem/Desktop/intelligilesolutions/pages/about/index.vue",
-    "chunkName": "pages/about/index",
-    "_name": "_0adbd527"
+    "chunkName": "pages/about/index"
   },
   {
     "name": "admin",
     "path": "/admin",
     "component": "/home/kazem/Desktop/intelligilesolutions/pages/admin/index.vue",
-    "chunkName": "pages/admin/index",
-    "_name": "_17e16a69"
+    "chunkName": "pages/admin/index"
   },
   {
     "name": "cart",
     "path": "/cart",
     "component": "/home/kazem/Desktop/intelligilesolutions/pages/cart/index.vue",
-    "chunkName": "pages/cart/index",
-    "_name": "_0008e0c8"
+    "chunkName": "pages/cart/index"
   },
   {
     "name": "comments",
     "path": "/comments",
     "component": "/home/kazem/Desktop/intelligilesolutions/pages/comments/index.vue",
-    "chunkName": "pages/comments/index",
-    "_name": "_21fae0f0"
+    "chunkName": "pages/comments/index"
   },
   {
     "name": "contact",
     "path": "/contact",
     "component": "/home/kazem/Desktop/intelligilesolutions/pages/contact/index.vue",
-    "chunkName": "pages/contact/index",
-    "_name": "_ed14738c"
+    "chunkName": "pages/contact/index"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "/home/kazem/Desktop/intelligilesolutions/pages/login/index.vue",
-    "chunkName": "pages/login/index",
-    "_name": "_11c47e03"
+    "chunkName": "pages/login/index"
   },
   {
     "name": "orders",
     "path": "/orders",
     "component": "/home/kazem/Desktop/intelligilesolutions/pages/orders/index.vue",
-    "chunkName": "pages/orders/index",
-    "_name": "_b7351e3e"
+    "chunkName": "pages/orders/index"
   },
   {
     "name": "products",
     "path": "/products",
     "component": "/home/kazem/Desktop/intelligilesolutions/pages/products/index.vue",
-    "chunkName": "pages/products/index",
-    "_name": "_efed6f40"
+    "chunkName": "pages/products/index"
   },
   {
     "name": "profile",
     "path": "/profile",
     "component": "/home/kazem/Desktop/intelligilesolutions/pages/profile/index.vue",
-    "chunkName": "pages/profile/index",
-    "_name": "_46769483"
+    "chunkName": "pages/profile/index"
   },
   {
     "name": "saved",
     "path": "/saved",
     "component": "/home/kazem/Desktop/intelligilesolutions/pages/saved/index.vue",
-    "chunkName": "pages/saved/index",
-    "_name": "_369b2fa1"
+    "chunkName": "pages/saved/index"
   },
   {
     "name": "signup",
     "path": "/signup",
     "component": "/home/kazem/Desktop/intelligilesolutions/pages/signup/index.vue",
-    "chunkName": "pages/signup/index",
-    "_name": "_62919b54"
+    "chunkName": "pages/signup/index"
   },
   {
     "name": "supports",
     "path": "/supports",
     "component": "/home/kazem/Desktop/intelligilesolutions/pages/supports/index.vue",
-    "chunkName": "pages/supports/index",
-    "_name": "_e3dbed00"
+    "chunkName": "pages/supports/index"
   },
   {
     "name": "profile-edit",
     "path": "/profile/edit",
     "component": "/home/kazem/Desktop/intelligilesolutions/pages/profile/edit/index.vue",
-    "chunkName": "pages/profile/edit/index",
-    "_name": "_e2e673a8"
+    "chunkName": "pages/profile/edit/index"
   },
   {
     "name": "supports-id",
     "path": "/supports/:id",
     "component": "/home/kazem/Desktop/intelligilesolutions/pages/supports/_id/index.vue",
-    "chunkName": "pages/supports/_id/index",
-    "_name": "_31ca646b"
+    "chunkName": "pages/supports/_id/index"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/home/kazem/Desktop/intelligilesolutions/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_2d7ff469"
+    "chunkName": "pages/index"
   }
 ]

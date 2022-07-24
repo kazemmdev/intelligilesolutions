@@ -2,7 +2,7 @@ import cookies from 'js-cookie';
 
 export default function ({$axios}, inject) {
 
-    const API_URL = process.env.API_URL;
+    const API_URL = 'https://api.intelligilesolutions.com/wp-json';
 
     const instance = $axios.create({
         baseURL: API_URL,
@@ -27,19 +27,7 @@ export default function ({$axios}, inject) {
 
     instance.interceptors.response.use(
         (response) => response,
-        async (error) => {
-
-            const prevRequest = error?.config;
-
-            if (error?.response?.status === 401 && !prevRequest?.sent) {
-                prevRequest.sent = true;
-
-                const response = await instance.get("/auth/refresh")
-                const {accessToken: newAccessToken} = response.data.payload
-                prevRequest.headers['Authorization'] = `Bearer ${newAccessToken}`;
-                cookies.set('x-access-token', newAccessToken)
-                return instance(prevRequest)
-            }
+        (error) => {
 
             if (error?.response?.status === 422) {
                 const {errors} = error.response.data

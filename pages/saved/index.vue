@@ -40,6 +40,18 @@ export default {
         {id: 5, thumb: "/images/img1.jpg", title: "Sella body butter", score: 4, price: 350},
       ]
     }
+  },
+  mounted() {
+    this.fetch()
+  },
+  methods:{
+    async fetch() {
+      await this.$api.get('/wp/v2/savedproducts').then(response=>{
+        console.log(response)
+      }).catch(error => {
+        console.log(error)
+      })
+    }
   }
 }
 </script>

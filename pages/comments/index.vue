@@ -42,6 +42,18 @@ export default {
         {id: 7, thumb: "/images/img1.jpg", title: "Sella body butter", score: 3, time: 'September30,2022 at 10:56 am', comment: 'I really had to prep my face to make it super hydrated. I found the coverage better with a brush but'},
       ]
     }
+  },
+  mounted() {
+    this.fetch()
+  },
+  methods:{
+    async fetch() {
+      await this.$api.get('/wp/v2/comments').then(response=>{
+        console.log(response)
+      }).catch(error => {
+        console.log(error)
+      })
+    }
   }
 }
 </script>

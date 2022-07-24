@@ -1,22 +1,31 @@
 import Vuex from "vuex";
+import cookies from "js-cookie";
 
 const createStore = () => {
     return new Vuex.Store({
         state: {
             loadedPosts: [],
-            user: {
-                name: 'Jack Dorsi',
-                email: 'jack.dorsi@gmail.com',
-                avatar: ''
-            }
+            user: null
         },
         mutations: {
             setPosts(state, posts) {
                 state.loadedPosts = posts;
             },
 
+            SET_TOKEN(state, token) {
+                cookies.set('x-access-token', token);
+            },
+
             SET_USER(state, user) {
-                state.user = user
+                state.user = user;
+            },
+
+            REMOVE_TOKEN() {
+                cookies.remove('x-access-token');
+            },
+
+            REMOVE_USER(state) {
+                state.user = null;
             }
         },
         actions: {
@@ -38,18 +47,27 @@ const createStore = () => {
                 vuexContext.commit("setPosts", posts);
             },
 
+            setToken({commit}, token) {
+                commit('SET_TOKEN', token);
+            },
+
             setUser({commit}, {user}) {
                 commit('SET_USER', user);
             },
 
             async fetchUser({dispatch}) {
-                const response = await this.$api.get('/user');
+                const response = await this.$api.get('/wp/v2/userprofile');
+                console.log(response)
                 dispatch('setUser', {user: response.data.payload})
             },
         },
         getters: {
             loadedPosts(state) {
                 return state.loadedPosts;
+            },
+
+            getToken() {
+                return cookies.get('x-access-token')
             }
         }
     });
