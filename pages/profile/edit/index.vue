@@ -4,7 +4,7 @@
       <div class="container-full d-lg-none py-2 subNavPage px-4">
         <div class="row w-100 justify-content-between g-0">
           <nuxt-link class="col d-flex align-items-center gap-3 text-dark text-decoration-none" to="/profile">
-            <img src="~/assets/svg/angle-small-right.svg" alt="">
+            <img src="~/assets/svg/angle-small-right.svg" alt=""/>
             <span>Back</span>
           </nuxt-link>
           <!--  Actions are here  -->
@@ -17,16 +17,16 @@
     <div class="container g-2">
       <div class="row border rounded-3">
         <div class="col-md-12 col-lg-6 border-bottom border-r">
-          <input-field v-model="fullName" name="full_name" title="Full Name" placeholder="Please Enter your full name" :optional="true"/>
+          <input-field v-model="userData.FullName" name="FullName" title="Full Name" placeholder="Please Enter your full name" :optional="true" @saving="save"/>
         </div>
         <div class="col-md-12 col-lg-6 border-bottom">
-          <input-field v-model="email" name="email" title="Email" placeholder="Please Enter your email" :optional="true"/>
+          <input-field v-model="userData.email" name="email" title="Email" type="email" placeholder="Please Enter your email" :optional="true" @saving="save"/>
         </div>
         <div class="col-md-12 col-lg-6 border-b border-r">
-          <input-field v-model="phone" name="phone" title="Phone Num" placeholder="Please Enter your phone number" :optional="true"/>
+          <input-field v-model="userData.phonenum" name="phonenum" title="Phone Num" placeholder="Please Enter your phone number" :optional="true" @saving="save"/>
         </div>
         <div class="col-md-12 col-lg-6">
-          <input-field v-model="password" name="password" title="Password" placeholder="Please Enter your password" :optional="true"/>
+          <input-field v-model="userData.password" name="password" title="Password" type="password" placeholder="Please Enter your password" :optional="true" @saving="save"/>
         </div>
       </div>
     </div>
@@ -35,32 +35,32 @@
     <div class="container g-2">
       <div class="row border rounded-3">
         <div class="col-md-12 col-lg-6 border-bottom border-r">
-          <input-field v-model="firstName" name="fist_name" title="First name" placeholder="Please Enter your first name"/>
+          <input-field v-model="userData.firstname" name="firstname" title="First name" placeholder="Please Enter your first name" @saving="save"/>
         </div>
         <div class="col-md-12 col-lg-6 border-bottom">
-          <input-field v-model="lastName" name="last_name" title="Last name" placeholder="Please Enter your last name"/>
+          <input-field v-model="userData.lastname" name="lastname" title="Last name" placeholder="Please Enter your last name" @saving="save"/>
         </div>
         <div class="col-md-12 col-lg-6 border-bottom border-r">
-          <input-field v-model="street" name="street" title="Street Address" placeholder="Please Enter your street address"/>
+          <input-field v-model="userData.streetaddress" name="streetaddress" title="Street Address" placeholder="Please Enter your street address" @saving="save"/>
         </div>
         <div class="col-md-12 col-lg-6 border-bottom">
-          <input-field v-model="more" name="apt" title="Apt,suite,etc.(optional)" placeholder="Please Add optional data" :optional="true"/>
+          <input-field v-model="more" name="apt" title="Apt,suite,etc.(optional)" placeholder="Please Add optional data" :optional="true" @saving="save"/>
         </div>
         <div class="col-md-12 col-lg-6 border-bottom border-r">
-          <input-field v-model="city" name="city" title="City" placeholder="Please Enter your city"/>
+          <input-field v-model="userData.city" name="city" title="City" placeholder="Please Enter your city" @saving="save"/>
         </div>
         <div class="col-md-12 col-lg-6 border-bottom">
-          <input-field v-model="state" name="state" title="State" placeholder="Please Enter your state"/>
+          <input-field v-model="userData.state" name="state" title="State" placeholder="Please Enter your state" @saving="save"/>
         </div>
         <div class="col-md-12 col-lg-6 border-bottom border-r">
-          <input-field v-model="zipcode" name="zipcode" title="Zip Code" placeholder="Please Enter your zip code"/>
+          <input-field v-model="userData.zipcode" name="zipcode" title="Zip Code" placeholder="Please Enter your zip code" @saving="save"/>
         </div>
         <div class="col-md-12 col-lg-6 border-bottom">
-          <input-field v-model="phone" name="phone" title="Phone Num" placeholder="Please Enter your phone"/>
+          <input-field v-model="userData.phonenum" name="phonenum" title="Phone Num" placeholder="Please Enter your phone" @saving="save"/>
         </div>
         <div class="col-12 p-4 mb-4">
           <label for="delivery" class="form-label">Delivery instructions</label>
-          <textarea v-model="instruction" class="form-control" id="delivery" rows="3" placeholder="write something..."></textarea>
+          <textarea v-model="userData.deliveryinstruction" class="form-control" id="delivery" rows="3" placeholder="write something..."></textarea>
         </div>
       </div>
     </div>
@@ -69,8 +69,8 @@
     <span class="text-black-50">Choose your payment method below</span>
     <div class="container g-2 mb-2">
       <div class="row flex flex-wrap py-4 gap-2">
-        <bank-card bank="paypal" :number="card" :select="cardSelected==='paypal'" @click.native="cardSelected='paypal'"/>
-        <bank-card bank="master" :number="card" :select="cardSelected==='master'" @click.native="cardSelected='master'"/>
+        <bank-card bank="paypal" :number="card" :select="cardSelected === 'paypal'" @click.native="cardSelected = 'paypal'"/>
+        <bank-card bank="master" :number="card" :select="cardSelected === 'master'" @click.native="cardSelected = 'master'"/>
         <bank-card/>
       </div>
     </div>
@@ -82,22 +82,22 @@
     <div class="container g-2 mb-10">
       <div class="row border rounded-3">
         <div class="col-md-12 col-lg-6 border-bottom border-r">
-          <input-field v-model="firstName" name="fist_name" title="First name" placeholder="Please Enter your first name"/>
+          <input-field v-model="userData.firstname" name="firstname" title="First name" placeholder="Please Enter your first name" @saving="save"/>
         </div>
         <div class="col-md-12 col-lg-6 border-bottom">
-          <input-field v-model="lastName" name="last_name" title="Last name" placeholder="Please Enter your last name"/>
+          <input-field v-model="userData.lastname" name="lastname" title="Last name" placeholder="Please Enter your last name" @saving="save"/>
         </div>
         <div class="col-md-12 col-lg-6 border-bottom border-r">
-          <input-field v-model="card" name="card" title="Card Number" placeholder="Please Enter your street address"/>
+          <input-field v-model="userData.cardnumber" name="cardnumber" title="Card Number" placeholder="Please Enter your street address" @saving="save"/>
         </div>
         <div class="col-md-12 col-lg-6 border-bottom">
-          <input-field v-model="cvv" name="cvv" title="CVV" placeholder="Please Add optional data"/>
+          <input-field v-model="userData.cvv" name="cvv" title="CVV" placeholder="Please Add optional data" @saving="save"/>
         </div>
         <div class="col-md-12 col-lg-6 border-b border-r">
-          <input-field v-model="expMonth" name="expMonth" title="Exp Month" placeholder="Please Enter your city"/>
+          <input-field v-model="userData.card_exp_month" name="card_exp_month" title="Exp Month" placeholder="Please Enter your city" @saving="save"/>
         </div>
         <div class="col-md-12 col-lg-6">
-          <input-field v-model="expYear" name="expYear" title="Exp Year" placeholder="Please Enter your state"/>
+          <input-field v-model="userData.card_exp_year" name="card_exp_year" title="Exp Year" placeholder="Please Enter your state" @saving="save"/>
         </div>
       </div>
     </div>
@@ -114,26 +114,53 @@ export default {
   layout: "profile",
   data() {
     return {
-      fullName: 'Jack Dorsi Alexandreh',
-      firstName: 'Jack',
-      lastName: 'Dorsi Alexandreh',
-      email: 'jack.dorsi@gmail.com',
-      phone: '001245841025',
-      password: '*********',
-      street: '132 North Border Street England, CA 50085',
-      city: 'California',
-      state: 'California',
-      zipcode: '12345678',
-      more: '',
-      instruction: '',
-      card: '1234-5678-9102-1112',
-      cvv: "********",
-      expMonth: "02/19",
-      expYear: "2023",
-      cardSelected: "paypal"
-    }
-  }
-}
+      userData: {
+        FullName: '',
+        aptsuite: '',
+        card_exp_month: '',
+        card_exp_year: '',
+        cardfirstname: '',
+        cardlastname: '',
+        cardnumber: '',
+        city: '',
+        cvv: '',
+        deliveryinstruction: '',
+        email: '',
+        firstname: '',
+        lastname: '',
+        password: '',
+        paymentmethod: '',
+        phonenum: '',
+        state: '',
+        streetaddress: '',
+        zipcode: '',
+      },
+      more: "",
+      card: "1234-5678-9102-1112",
+      cardSelected: "paypal",
+    };
+  },
+  async asyncData({$api, store, error}) {
+    return await $api.get(`wp/v2/users/${store.state.user.id}`).then(response => {
+      return {userData: response.data.acf}
+    }).catch(e => error())
+  },
+  methods: {
+    save(e) {
+      let data = {
+        "data": this.userData
+      }
+
+      this.$api.put(`/wp/v2/users/${this.$store.state.user.id}`, data)
+          .then((response) => {
+            console.log(response);
+          })
+          .catch((error) => {
+            console.log(error);
+          });
+    },
+  },
+};
 </script>
 
 <style scoped>

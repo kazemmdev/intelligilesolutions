@@ -65,7 +65,7 @@
         <form @submit.prevent="FormSubmit" class="my-4">
           <!-- Email input -->
           <div class="form-outline mb-3">
-            <input v-model="email" placeholder="Email Address" type="email" id="input1" class="InputStyle form-control"/>
+            <input v-model="email" placeholder="Email Address" type="text" id="input1" class="InputStyle form-control"/>
             <p class="text-danger" v-if="MailCheck">No Empty email Field</p>
           </div>
           <!-- Password input -->
@@ -111,8 +111,8 @@
 export default {
   data() {
     return {
-      email: '',
-      password: '',
+      email: 'nushin',
+      password: 'nushin@1400',
       MailCheck: false,
       PassCheck: false,
     }

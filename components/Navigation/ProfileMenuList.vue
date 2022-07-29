@@ -1,16 +1,16 @@
 <template>
-  <div class="menu" :class="{'menu-light':isLight}">
+  <div class="menu" :class="{ 'menu-light': isLight }">
     <div class="menu-header">
-      <img src="~/assets/svg/yuser.svg" alt="">
+      <img src="~/assets/svg/yuser.svg" alt="" />
       <div>
-        <h3>{{ user.name }}</h3>
+        <h3 class="capt">{{ user.name }}</h3>
         <span>{{ user.email }}</span>
       </div>
     </div>
     <nuxt-link class="menu-item" to="/profile/edit">
       <div class="menu-item-text">
         <div class="menu-item-user">
-          <img src="~/assets/svg/user.svg" alt="" width="15">
+          <img src="~/assets/svg/user.svg" alt="" width="15" />
           Profile
         </div>
         <i class="bi bi-chevron-right"></i>
@@ -19,7 +19,7 @@
     <nuxt-link class="menu-item" to="/cart">
       <div class="menu-item-text">
         <div class="menu-item-user">
-          <img src="~/assets/svg/cart-add.svg" alt="" width="19">
+          <img src="~/assets/svg/cart-add.svg" alt="" width="19" />
           Cart
         </div>
         <i class="bi bi-chevron-right"></i>
@@ -28,7 +28,7 @@
     <nuxt-link class="menu-item" to="/orders">
       <div class="menu-item-text">
         <div class="menu-item-user">
-          <img src="~/assets/svg/cart-check.svg" alt="" width="19">
+          <img src="~/assets/svg/cart-check.svg" alt="" width="19" />
           Orders
         </div>
         <i class="bi bi-chevron-right"></i>
@@ -46,7 +46,7 @@
     <nuxt-link class="menu-item" to="/comments">
       <div class="menu-item-text">
         <div class="menu-item-user">
-          <img src="~/assets/svg/comment.svg" alt="" width="19">
+          <img src="~/assets/svg/comment.svg" alt="" width="19" />
           Comments
         </div>
         <i class="bi bi-chevron-right"></i>
@@ -55,7 +55,7 @@
     <nuxt-link class="menu-item" to="/supports">
       <div class="menu-item-text">
         <div class="menu-item-user">
-          <img src="~/assets/svg/headset.svg" alt="" width="19">
+          <img src="~/assets/svg/headset.svg" alt="" width="19" />
           Support
         </div>
         <i class="bi bi-chevron-right"></i>
@@ -64,7 +64,7 @@
     <a href="#" class="menu-item" @click="logout">
       <div class="menu-item-text border-0">
         <div class="menu-item-user">
-          <img src="~/assets/svg/sign-out.svg" alt="" width="19">
+          <img src="~/assets/svg/sign-out.svg" alt="" width="19" />
           Exit
         </div>
         <i class="bi bi-chevron-right"></i>
@@ -74,22 +74,22 @@
 </template>
 
 <script>
-import {mapState} from "vuex";
+import { mapState } from "vuex";
 
 export default {
   name: "ProfileMenuList",
-  props: ['isLight'],
+  props: ["isLight"],
   computed: {
     ...mapState({
-      user: state => state.user
-    })
+      user: (state) => state.user,
+    }),
   },
   methods: {
     logout() {
       // logout process
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -145,13 +145,14 @@ export default {
   text-decoration: none;
 }
 
-.menu-item:hover, .nuxt-link-exact-active {
+.menu-item:hover,
+.nuxt-link-exact-active {
   color: #222;
   position: relative;
 }
 
 .nuxt-link-exact-active:before {
-  content: '';
+  content: "";
   position: absolute;
   background-color: #222;
   width: 4px;

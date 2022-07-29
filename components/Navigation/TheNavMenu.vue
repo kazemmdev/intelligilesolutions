@@ -3,25 +3,25 @@
     <template v-if="user">
       <dropdown>
         <button type="button" class="btn loginbtn">
-          <img src="~/assets/svg/angle.svg" alt="">
+          <img src="~/assets/svg/angle.svg" alt="" />
           <span class="signintext">{{ user.name }}</span>
         </button>
         <template slot="content">
           <nuxt-link class="nav-item" to="/profile">
             <div class="nav-item-text">
               <div class="nav-item-user">
-                <img src="~/assets/svg/user.svg" alt="" width="15">
-                {{ user.name }}
+                <img src="~/assets/svg/user.svg" alt="" width="15" />
+                <span class="capt">{{ user.name }}</span>
               </div>
               <i class="bi bi-chevron-right"></i>
             </div>
           </nuxt-link>
           <nuxt-link class="nav-item" to="/cart">
-            <img src="~/assets/svg/cart-add.svg" alt="" width="19">
+            <img src="~/assets/svg/cart-add.svg" alt="" width="19" />
             <div class="nav-item-text">Cart</div>
           </nuxt-link>
           <nuxt-link class="nav-item" to="/orders">
-            <img src="~/assets/svg/cart-check.svg" alt="" width="19">
+            <img src="~/assets/svg/cart-check.svg" alt="" width="19" />
             <div class="nav-item-text">Orders</div>
           </nuxt-link>
           <nuxt-link class="nav-item" to="/saved">
@@ -29,15 +29,15 @@
             <div class="nav-item-text">Saved</div>
           </nuxt-link>
           <nuxt-link class="nav-item" to="/comments">
-            <img src="~/assets/svg/comment.svg" alt="" width="19">
+            <img src="~/assets/svg/comment.svg" alt="" width="19" />
             <div class="nav-item-text">Comments</div>
           </nuxt-link>
           <nuxt-link class="nav-item" to="/supports">
-            <img src="~/assets/svg/headset.svg" alt="" width="19">
+            <img src="~/assets/svg/headset.svg" alt="" width="19" />
             <div class="nav-item-text">Support</div>
           </nuxt-link>
           <a href="#" class="nav-item" @click="logout">
-            <img src="~/assets/svg/sign-out.svg" alt="" width="19">
+            <img src="~/assets/svg/sign-out.svg" alt="" width="19" />
             <div>Exit</div>
           </a>
         </template>
@@ -56,23 +56,23 @@
 </template>
 
 <script>
-import {mapState} from "vuex";
+import { mapState } from "vuex";
 import dropdown from "../Dropdown";
 
 export default {
   name: "TheNavMenu",
   computed: {
     ...mapState({
-      user: state => state.user
-    })
+      user: (state) => state.user,
+    }),
   },
-  components: {dropdown},
+  components: { dropdown },
   methods: {
     logout() {
       // logout process
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -91,7 +91,7 @@ export default {
   font-weight: 600;
   font-size: 16px;
   color: #055452;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   padding: 8px;
 }
@@ -165,5 +165,4 @@ export default {
 .nav-item:hover img {
   filter: none;
 }
-
 </style>

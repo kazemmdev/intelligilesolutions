@@ -1,9 +1,17 @@
 <template>
   <div class="input-field">
     <label :for="name" class="form-label">{{ title }} <i v-if="!optional" class="text-danger pl-2">*</i> </label>
-    <input v-model="input" :type="type" class="form-control" :id="name" :placeholder="placeholder" :disabled="!editable" ref="input">
-    <img src="~/assets/svg/edit.svg" alt="" width="24" v-if="!editable" @click="edit">
-    <div class="btn btn-link btn-sm pl-2" v-if="editable" @click="editable=false">Save</div>
+    <input
+      v-model="input"
+      :type="type"
+      class="form-control"
+      :id="name"
+      :placeholder="placeholder"
+      :disabled="!editable"
+      ref="input"
+    />
+    <img src="~/assets/svg/edit.svg" alt="" width="24" v-if="!editable" @click="edit" />
+    <div class="btn btn-link btn-sm pl-2" v-if="editable" @click="save">Save</div>
   </div>
 </template>
 
@@ -14,24 +22,24 @@ export default {
     value: String,
     name: {
       type: String,
-      default: "name"
+      default: "name",
     },
     title: {
       type: String,
-      default: "text"
+      default: "text",
     },
     type: {
       type: String,
-      default: "text"
+      default: "text",
     },
     placeholder: {
       type: String,
-      default: "text"
+      default: "text",
     },
     optional: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
   computed: {
     input: {
@@ -39,24 +47,28 @@ export default {
         return this.value;
       },
       set(v) {
-        this.$emit('input', v)
-      }
-    }
+        this.$emit("input", v);
+      },
+    },
   },
   data() {
     return {
-      editable: false
-    }
+      editable: false,
+    };
   },
   methods: {
     edit() {
-      this.editable = true
+      this.editable = true;
       setTimeout(() => {
         this.$refs.input.focus();
-      }, 50)
-    }
-  }
-}
+      }, 50);
+    },
+    save() {
+      this.editable = false;
+      this.$emit("saving", { name: this.name, value: this.input });
+    },
+  },
+};
 </script>
 
 <style scoped>

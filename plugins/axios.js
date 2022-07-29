@@ -1,9 +1,7 @@
 import cookies from 'js-cookie';
 
-export default function ({$axios}, inject) {
-
+export default function ({$axios, store}, inject) {
     const API_URL = 'https://api.intelligilesolutions.com/wp-json';
-
     const instance = $axios.create({
         baseURL: API_URL,
         headers: {
@@ -12,11 +10,9 @@ export default function ({$axios}, inject) {
         },
         withCredentials: true
     });
-
     instance.interceptors.request.use(
         (config) => {
-            const token = cookies.get('x-access-token');
-
+            const token = getToken(config.headers);
             if (!config.headers['Authorization'] && token) {
                 config.headers["Authorization"] = `Bearer ${token}`;
             }
@@ -24,7 +20,6 @@ export default function ({$axios}, inject) {
         },
         (error) => Promise.reject(error)
     );
-
     instance.interceptors.response.use(
         (response) => response,
         (error) => {
@@ -42,6 +37,16 @@ export default function ({$axios}, inject) {
             return Promise.reject(error)
         }
     );
-
     inject('api', instance)
 };
+
+function getToken(headers) {
+    if (cookies.get('x-access-token'))
+        return cookies.get('x-access-token')
+
+    if (headers && headers.common && headers.common.cookie) {
+        let findItem = headers.common.cookie.split(";").find(item => item.includes('x-access-token'))
+
+        return findItem ? findItem.split("=")[1] : ''
+    }
+}

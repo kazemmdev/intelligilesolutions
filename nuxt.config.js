@@ -3,7 +3,7 @@ const path = require('path')
 const CKEditorWebpackPlugin = require("@ckeditor/ckeditor5-dev-webpack-plugin")
 const CKEditorStyles = require("@ckeditor/ckeditor5-dev-utils").styles
 
-export default {
+export default {  
     telemetry: false,
     /*
     ** Headers of the page
@@ -50,7 +50,8 @@ export default {
     */
     plugins: [
         {src: '~/plugins/axios.js'},
-        {src: '~/plugins/ckeditor.js', ssr: false}
+        {src: '~/plugins/ckeditor.js', ssr: false},
+        {src: '~/plugins/userState.client.js'}
     ],
 
     /*

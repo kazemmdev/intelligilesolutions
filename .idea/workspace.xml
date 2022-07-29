@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae1c3ec8-1c9e-4f25-b7e2-ad65f7155399" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/plugins/userState.client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/routes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/comments/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/comments/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/InputField.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/InputField.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navigation/ProfileMenuList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navigation/ProfileMenuList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navigation/TheNavMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navigation/TheNavMenu.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware/loggedIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/loggedIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/orders/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/orders/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/saved/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/saved/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/supports/_id/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/supports/_id/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/supports/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/supports/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/profile/edit/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/profile/edit/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plugins/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/axios.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/index.js" afterDir="false" />
     </list>
@@ -95,6 +102,8 @@
       <workItem from="1658417642213" duration="2657000" />
       <workItem from="1658545696556" duration="1919000" />
       <workItem from="1658563386922" duration="730000" />
+      <workItem from="1658998190191" duration="3961000" />
+      <workItem from="1659012452269" duration="11516000" />
     </task>
     <servers />
   </component>
