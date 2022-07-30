@@ -42,18 +42,21 @@
       </div>
     </div>
     <ticket-box :data="item" v-for="(item, index) in data" :key="index" :no-state="true"/>
+    <reply-input :avatar="'/images/avatar.jpg'" :message="message" @submit="reply"/>
   </div>
 </template>
 
 <script>
 import TicketBox from "~/components/TicketBox";
+import ReplyInput from "~/components/ReplyInput";
 export default {
   name: "index",
-  components: {TicketBox},
+  components: {ReplyInput, TicketBox},
   layout: "profile",
   data() {
     return {
       close: false,
+      message: '',
       ticket: {
         closed: false,
         subject: 'Error cart',
@@ -125,7 +128,8 @@ export default {
       }).catch(error => {
         console.log(error)
       })
-    }
+    },
+    async reply() {}
   }
 }
 </script>
@@ -174,7 +178,7 @@ export default {
   justify-content: space-between;
   border-bottom: 1px solid #e5e5e5;
   padding-bottom: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 24px;
 }
 
 .ticket-head img {

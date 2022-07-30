@@ -146,12 +146,12 @@ export default {
     }).catch(e => error())
   },
   methods: {
-    save(e) {
+    async save(e) {
       let data = {
         "data": this.userData
       }
 
-      this.$api.put(`/wp/v2/users/${this.$store.state.user.id}`, data)
+      await this.$api.put(`/wp/v2/users/${this.$store.state.user.id}`, data)
           .then((response) => {
             console.log(response);
           })

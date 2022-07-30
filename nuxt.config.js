@@ -59,7 +59,8 @@ export default {
     */
     modules: [
         '@nuxtjs/axios',
-        'portal-vue/nuxt'
+        'portal-vue/nuxt',
+        '@nuxtjs/svg'
     ],
 
     /*

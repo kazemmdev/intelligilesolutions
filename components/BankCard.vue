@@ -6,7 +6,7 @@
     <div class="bank">
       <img src="~/assets/svg/paypal.svg" width="28" alt="" v-if="bank==='paypal'">
       <img src="~/assets/svg/mastercard.svg" width="30" alt="" v-if="bank==='master'">
-      <img src="~/assets/svg/plus-small.svg" alt="" v-if="bank==='blank'">
+      <img src="~/assets/svg/plus-small.svg" alt="" v-if="bank==='blank'" @click="show=true">
     </div>
     <img id="circle1" src="~/assets/svg/circle1.svg" alt="" v-if="bank!=='blank'">
     <img id="circle2" src="~/assets/svg/circle3.svg" alt="" v-if="bank!=='blank'">
@@ -17,12 +17,16 @@
       <h5 v-if="bank==='blank'">Add a new card</h5>
       <div class="numbers">{{ number.replaceAll("-", " ") }}</div>
     </div>
+
+    <NewCartBox :open="show" @close="show=false"/>
   </div>
 </template>
 
 <script>
+import NewCartBox from "~/components/NewCartBox";
 export default {
   name: "BankCard",
+  components: {NewCartBox},
   props: {
     number: {
       type: String,
@@ -37,6 +41,9 @@ export default {
       default: false
     }
   },
+  data: () => ({
+    show: false
+  }),
   computed: {
     bankStyle() {
       return this.bank

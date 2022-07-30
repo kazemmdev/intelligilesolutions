@@ -39,7 +39,7 @@ export default {
       show: false,
       data: [
         {
-          id: "58/cart",
+          id: "58",
           state: 'open',
           priority: 'medium',
           time: 'September 30,2022 at 10:56 am',
@@ -51,7 +51,7 @@ export default {
           }
         },
         {
-          id: "59/cart",
+          id: "59",
           state: 'pending',
           priority: 'medium',
           time: 'May 26,2022 at 18:50 pm',
@@ -63,7 +63,7 @@ export default {
           }
         },
         {
-          id: "60/cart",
+          id: "60",
           state: 'closed',
           priority: 'low',
           time: 'June 21,2022 at 08:44 pm',
@@ -75,7 +75,7 @@ export default {
           }
         },
         {
-          id: "61/cart",
+          id: "61",
           state: 'open',
           priority: 'high',
           time: 'June 18,2022 at 08:00 pm',

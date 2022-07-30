@@ -1,6 +1,6 @@
 <template>
   <div class="box">
-    <span>#{{ data.id }}</span>
+    <nuxt-link v-if="!noState" :to="'/supports/'+data.id" class="">#{{ data.id }}/cart</nuxt-link>
     <div class="box-body mt-2">
       <img id="thumb" :src="data.user.avatar" alt="">
       <div class="d-flex gap-3 justify-content-between flex-wrap w-100">
@@ -86,7 +86,7 @@ export default {
   color: #707070 !important;
 }
 
-.box-body span, .box span {
+.box-body span, .box span, .box a {
   color: #b2b2b2;
   font-size: 14px;
 }
