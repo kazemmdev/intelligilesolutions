@@ -4,46 +4,28 @@
     <div class="container py-4 d-none d-lg-block">
       <div class="row justify-content-between">
         <div class="col-lg-1">
-          <img src="~/assets/pictures/logokandaka.svg" alt="logo" class="logo"/>
+          <img src="~/assets/pictures/logokandaka.svg" alt="logo" class="logo" />
         </div>
         <div class="col-auto col-lg-5 text-start pe-5">
           <nav class="navbar shadow-0 navbar-expand-lg py-4 pe-2">
             <div class="collapse navbar-collapse" id="navmenu">
               <ul class="navbar-nav">
-                <nuxt-link class="nav-link" to="/">
-                  Home
-                </nuxt-link>
+                <nuxt-link class="nav-link" to="/"> Home </nuxt-link>
                 <li class="nav-item px-3">
-                  <nuxt-link class="nav-link" to="/about">
-                    About
-                  </nuxt-link>
+                  <nuxt-link class="nav-link" to="/about"> About </nuxt-link>
                 </li>
-              <li class="DropDownNav nav-item px-3">
-                <nuxt-link class="nav-link" to="/products">
-                  Products
-                </nuxt-link>
-                 <div class="DropDown">
-                    <nuxt-link class="nav-link" to="/products">
-                    Lip Care
-                    </nuxt-link>
-                     <nuxt-link class="nav-link" to="/products">
-                    Skin Care
-                    </nuxt-link>
-                     <nuxt-link class="nav-link" to="/products">
-                    Jewelry
-                    </nuxt-link>
-                     <nuxt-link class="nav-link" to="/products">
-                    Nail
-                    </nuxt-link>
-                     <nuxt-link class="nav-link" to="/products">
-                    Perfum
-                    </nuxt-link>
-                 </div>
-              </li>
+                <li class="DropDownNav nav-item px-3">
+                  <nuxt-link class="nav-link" to="/products"> Products </nuxt-link>
+                  <div class="DropDown">
+                    <nuxt-link class="nav-link" to="/products"> Lip Care </nuxt-link>
+                    <nuxt-link class="nav-link" to="/products"> Skin Care </nuxt-link>
+                    <nuxt-link class="nav-link" to="/products"> Jewelry </nuxt-link>
+                    <nuxt-link class="nav-link" to="/products"> Nail </nuxt-link>
+                    <nuxt-link class="nav-link" to="/products"> Perfum </nuxt-link>
+                  </div>
+                </li>
                 <li class="nav-item px-3">
-                  <nuxt-link class="nav-link" to="/contact">
-                    Contact
-                  </nuxt-link>
+                  <nuxt-link class="nav-link" to="/contact"> Contact </nuxt-link>
                 </li>
               </ul>
             </div>
@@ -53,7 +35,14 @@
           <!-- search form -->
           <div class="d-flex flex-row">
             <div class="form-outline">
-              <input @blur="OnBlur" @focus="OnFocus" placeholder="Search..." type="search" id="form1" class="form-control inputstyle" />
+              <input
+                @blur="OnBlur"
+                @focus="OnFocus"
+                placeholder="Search..."
+                type="search"
+                id="form1"
+                class="form-control inputstyle"
+              />
             </div>
             <button type="button" :class="OnFocusCss" class="btn searchbtn rounded-circle">
               <i class="bi bi-search searchicon"></i>
@@ -61,7 +50,7 @@
           </div>
         </div>
         <div class="col-lg-3 text-start py-4 d-flex flex-row flex-row-reverse">
-          <TheNavMenu/>
+          <TheNavMenu />
           <button type="button" class="btn shopbtn">
             <i class="bi bi-bag shopicon"></i>
           </button>
@@ -73,23 +62,23 @@
       <div class="row g-0 border-bottom pb-3">
         <div class="col-4">
           <div class="d-flex flex-row align-items-center mt-3">
-            <img src="~/assets/pictures/search.svg" class="SearchIcon" alt="search">
+            <img src="~/assets/pictures/search.svg" class="SearchIcon" alt="search" />
             <div class="px-1"></div>
-            <img src="~/assets/pictures/shop.svg" class="ShopIcon" alt="search">
+            <img src="~/assets/pictures/shop.svg" class="ShopIcon" alt="search" />
           </div>
         </div>
         <div class="col-4 text-center">
-          <img src="~/assets/pictures/logokandaka.png" alt="logo" class="logo"/>
+          <img src="~/assets/pictures/logokandaka.png" alt="logo" class="logo" />
         </div>
         <div class="col-4 text-start">
-          <img @click="EnableMobileMenu" src="~/assets/pictures/menu.svg" alt="menu" class="MobileMenuIcon">
+          <img @click="EnableMobileMenu" src="~/assets/pictures/menu.svg" alt="menu" class="MobileMenuIcon" />
         </div>
       </div>
     </div>
 
     <TheMobileMenuModal @SendModalStatus="DisableMobileMenu" v-if="MobileMenu" :menu_status="MobileMenu" />
     <!--  sub navigation holder  -->
-    <slot/>
+    <slot />
   </header>
 </template>
 
@@ -99,15 +88,15 @@ import TheNavMenu from "./TheNavMenu";
 
 export default {
   name: "TheHeader",
-  components: {TheNavMenu, TheMobileMenuModal},
+  components: { TheNavMenu, TheMobileMenuModal },
   props: ["menu_data"],
-   data() {
+  data() {
     return {
       Focused: false,
       MobileMenu: false,
-    }
+    };
   },
-   methods: {
+  methods: {
     OnFocus() {
       this.Focused = true;
     },
@@ -119,19 +108,18 @@ export default {
     },
     DisableMobileMenu() {
       this.MobileMenu = false;
-    }
+    },
   },
-  
+
   computed: {
     OnFocusCss() {
-      return this.Focused ? 'FocusedBtn' : 'searchbtn';
-    }
-  }
+      return this.Focused ? "FocusedBtn" : "searchbtn";
+    },
+  },
 };
 </script>
 
 <style scoped>
-
 .DropDownNav:hover .DropDown {
   display: block;
   padding-right: 0px;
@@ -140,7 +128,7 @@ export default {
 
 .DropDown {
   display: none;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: 10pt !important;
   text-align: left;
   background-color: #fff;
@@ -158,11 +146,10 @@ export default {
   padding-left: 20px !important;
 }
 
-
 .DropDown a:hover {
   font-size: 12pt !important;
-  background-color: #e99d7b!important;
-  color: #fff!important;
+  background-color: #e99d7b !important;
+  color: #fff !important;
 }
 
 /* navbar component style */
@@ -174,7 +161,7 @@ nav a {
 }
 
 nav a:hover {
-  color:  #e99d7b !important;
+  color: #e99d7b !important;
 }
 
 .logo {
@@ -187,10 +174,8 @@ nav a:hover {
     display: none;
   }
 }
- 
 
 @media all and (max-width: 994px) {
-
   .logo {
     border-radius: 50%;
     width: 70px;
@@ -204,12 +189,11 @@ nav a:hover {
   }
 
   .ShopIcon {
-    width: 40px;  
+    width: 40px;
     background-color: #e99d7b;
     border-radius: 40%;
     padding: 9px;
   }
-
 }
 
 @media all and (max-width: 1200px) {
@@ -218,11 +202,11 @@ nav a:hover {
   }
 }
 
- ::placeholder {
-  font-family: 'Open Sans', sans-serif;
+::placeholder {
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
-   opacity: 1 !important;
- }
+  opacity: 1 !important;
+}
 
 input:focus {
   width: 120%;
@@ -233,7 +217,6 @@ input:focus::placeholder {
   color: #e99d7b;
   transition: 0.3s;
 }
-
 
 .MobileMenuBack {
   box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.09);
@@ -256,7 +239,7 @@ input:focus::placeholder {
 }
 
 .FocusedBtn {
- background-color: #e99d7b !important;
+  background-color: #e99d7b !important;
   margin-left: 5px !important;
   margin-top: 0px;
   height: 37px;
@@ -264,38 +247,35 @@ input:focus::placeholder {
   z-index: 1;
   box-shadow: none;
   animation-name: move;
-  animation-duration: 0.5s; 
+  animation-duration: 0.5s;
 }
-
 
 .searchicon {
- color: #055452;
- position: relative;
- right: 2px;
+  color: #055452;
+  position: relative;
+  right: 2px;
 }
 
-
 .searchicon:hover {
- color: #fff;
- transition: 0.3s;
+  color: #fff;
+  transition: 0.3s;
 }
 
 .shopicon {
- color: #055452;
- position: relative;
- right: 1px;
+  color: #055452;
+  position: relative;
+  right: 1px;
 }
 
 .shopicon:hover {
- color: #fff;
- transition: 0.3s;
+  color: #fff;
+  transition: 0.3s;
 }
 
 .inputstyle {
   border: 0.5px solid #707070 !important;
   border-radius: 30px !important;
 }
-
 
 .loginbtn {
   background-color: #e99d7b !important;
@@ -319,7 +299,7 @@ input:focus::placeholder {
   font-weight: 600;
   font-size: 16px;
   color: #055452;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   padding: 8px;
 }
@@ -344,7 +324,7 @@ input:focus::placeholder {
   }
 }
 
- .SubPageMenuBkg {
+.SubPageMenuBkg {
   box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.09);
- }
+}
 </style>
