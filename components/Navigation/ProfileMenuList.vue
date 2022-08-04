@@ -2,7 +2,7 @@
   <div class="menu" :class="{ 'menu-light': isLight }">
     <div class="menu-header">
       <img src="~/assets/svg/yuser.svg" alt="" />
-      <div>
+      <div v-if="name">
         <h3 class="capt">{{ user.name }}</h3>
         <span>{{ user.email }}</span>
       </div>

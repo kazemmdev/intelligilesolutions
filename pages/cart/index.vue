@@ -4,7 +4,7 @@
       <div class="container-full d-lg-none py-2 subNavPage px-4">
         <div class="row w-100 justify-content-between g-0">
           <nuxt-link class="col d-flex align-items-center gap-3 text-dark text-decoration-none" to="/profile">
-            <img src="~/assets/svg/angle-small-right.svg" alt="">
+            <img src="~/assets/svg/angle-small-right.svg" alt="" />
             <span>Back</span>
           </nuxt-link>
           <!--  Actions are here  -->
@@ -13,83 +13,76 @@
       </div>
     </Portal>
     <div class="container g-0 mb-10 justify-content-center align-items-center">
-        <div class="d-flex justify-content-between align-items-center">
-          <h1>{{ title }}</h1>
-          <span class="link h4">{{ items.length }} Items</span>
+      <div class="d-flex justify-content-between align-items-center">
+        <h1>{{ title }}</h1>
+        <span class="link h4">{{ items.length }} Items</span>
+      </div>
+      <div class="mt-2 mb-4">
+        <ProductItemBox v-for="item in items" :key="item.id" :data="item" />
+      </div>
+      <div class="d-flex justify-content-end mb-4">
+        <div class="btn">
+          <span>Update cart</span>
+          <img src="~/assets/svg/refresh.svg" alt="" />
         </div>
-        <div class="mt-2 mb-4">
-          <ProductItemBox v-for="item in items" :key="item.id" :data="item" />
+      </div>
+      <div class="free-shipping">
+        <div>
+          <h2>Free delivery</h2>
+          <p>Purchases over $100 will be sent for free</p>
         </div>
-        <div class="d-flex justify-content-end mb-4">
-          <div class="btn">
-            <span>Update cart</span>
-            <img src="~/assets/svg/refresh.svg" alt="" />
+        <img src="~/assets/pictures/Free-shipping.png" alt="" />
+      </div>
+      <div class="d-flex gap-lg-5 my-5 flex-column flex-lg-row">
+        <div class="w-100">
+          <div class="v-input">
+            <label for="address">Your Address</label>
+            <input type="text" id="address" v-model="address" placeholder="Please enter your adress here..." />
+          </div>
+          <div class="v-input">
+            <label for="phone">Phone Num</label>
+            <input type="text" id="phone" v-model="phone" placeholder="Please enter your phone number here..." />
+          </div>
+          <div class="v-input">
+            <label for="coupon">COUPON Code</label>
+            <input type="text" id="coupon" v-model="coupon" placeholder="Enter your coupon if you have one." />
+            <button>APPLY COUPON</button>
           </div>
         </div>
-        <div class="free-shipping">
-          <div>
-            <h2>Free delivery</h2>
-            <p>Purchases over $100 will be sent for free</p>
+        <div class="cart-total">
+          <h3 class="border-bottom">CART TOTAL</h3>
+          <div class="d-flex align-items-center justify-content-between border-bottom py-3">
+            <span>SUBTOTAL</span>
+            <strong>$499.00</strong>
           </div>
-          <img src="~/assets/pictures/Free-shipping.png" alt="" />
-        </div>
-        <div class="d-flex gap-lg-5 my-5 flex-column flex-lg-row">
-          <div class="w-100">
-            <div class="v-input">
-              <label for="address">Your Address</label>
-              <input type="text" id="address" v-model="address" placeholder="Please enter your adress here..." />
-            </div>
-            <div class="v-input">
-              <label for="phone">Phone Num</label>
-              <input type="text" id="phone" v-model="phone" placeholder="Please enter your phone number here..." />
-            </div>
-            <div class="v-input">
-              <label for="coupon">COUPON Code</label>
-              <input type="text" id="coupon" v-model="coupon" placeholder="Enter your coupon if you have one." />
-              <button>APPLY COUPON</button>
-            </div>
-          </div>
-          <div class="cart-total">
-            <h3 class="border-bottom">CART TOTAL</h3>
-            <div class="d-flex align-items-center justify-content-between border-bottom py-3">
-              <span>SUBTOTAL</span>
-              <strong>$499.00</strong>
-            </div>
 
-            <div class="d-flex align-items-center justify-content-between border-bottom py-3">
-              <span>SHIPPING</span>
-              <div class="selection">
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flat" id="flat" value="flat" v-model="shipping" />
-                  <label class="form-check-label" for="flat"> Flat rate: $3.00 </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="free" id="free" value="free" v-model="shipping" />
-                  <label class="form-check-label" for="free"> Free shipping </label>
-                </div>
-                <div class="form-check">
-                  <input
-                      class="form-check-input"
-                      type="radio"
-                      name="local"
-                      id="local"
-                      value="local"
-                      v-model="shipping"
-                  />
-                  <label class="form-check-label" for="local"> Local pickup </label>
-                </div>
+          <div class="d-flex align-items-center justify-content-between border-bottom py-3">
+            <span>SHIPPING</span>
+            <div class="selection">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flat" id="flat" value="flat" v-model="shipping" />
+                <label class="form-check-label" for="flat"> Flat rate: $3.00 </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="free" id="free" value="free" v-model="shipping" />
+                <label class="form-check-label" for="free"> Free shipping </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="local" id="local" value="local" v-model="shipping" />
+                <label class="form-check-label" for="local"> Local pickup </label>
               </div>
             </div>
+          </div>
 
-            <div class="d-flex align-items-center justify-content-between border-bottom py-3">
-              <span>TOTAL</span>
-              <strong>$504.00</strong>
-            </div>
-            <div class="d-flex justify-content-end">
-              <button>PROCEED TO CHECKOUT</button>
-            </div>
+          <div class="d-flex align-items-center justify-content-between border-bottom py-3">
+            <span>TOTAL</span>
+            <strong>$504.00</strong>
+          </div>
+          <div class="d-flex justify-content-end">
+            <button>PROCEED TO CHECKOUT</button>
           </div>
         </div>
+      </div>
     </div>
   </div>
 </template>
@@ -101,7 +94,7 @@ import ProductItemBox from "~/components/ProductItemBox.vue";
 
 export default {
   name: "index",
-  components: {ProductItemBox, SavedBox, ProductScore},
+  components: { ProductItemBox, SavedBox, ProductScore },
   layout: "profile",
   data() {
     return {
@@ -142,9 +135,9 @@ export default {
           totalprice: 308,
         },
       ],
-    }
-  }
-}
+    };
+  },
+};
 </script>
 
 <style scoped>

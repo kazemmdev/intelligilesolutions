@@ -2,9 +2,12 @@
   <div class="box">
     <img :src="data.thumb" alt="" />
     <div class="box-inner">
-      <div class="px-3">
-        <h4>{{ data.title }}</h4>
-        <span>{{ data.desc }}</span>
+      <div class="box-title">
+        <div class="px-3" style="flex: 1">
+          <h4>{{ data.title }}</h4>
+          <span>{{ data.desc }}</span>
+        </div>
+        <div class="close">&#215;</div>
       </div>
       <div class="unit-price">
         <span class="price" :class="{ 'has-discount': data.discount }">${{ data.price }}</span>
@@ -21,9 +24,7 @@
           <span class="price">${{ data.totalprice }}</span>
         </div>
       </div>
-      <div class="close">
-        <span> &#215; </span>
-      </div>
+      <div class="close">&#215;</div>
     </div>
   </div>
 </template>
@@ -78,6 +79,12 @@ export default {
   color: #055452;
 }
 
+.box-title {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
 .unit-price {
   display: none;
 }
@@ -96,6 +103,7 @@ export default {
 .counter-wrapper {
   display: flex;
   padding-left: 1rem;
+  padding-right: 1rem;
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
@@ -114,7 +122,7 @@ export default {
 
 .counter span {
   font-size: 22px;
-  font-weight: 600px;
+  font-weight: 600;
   cursor: pointer;
   text-align: center;
   width: 50px;
@@ -150,16 +158,21 @@ export default {
 }
 
 .close {
-  position: absolute;
+  display: none;
   right: 10px;
   top: 0;
-}
-
-.close span {
+  flex: auto;
+  min-width: 50px;
   cursor: pointer;
   color: #d90f0f;
   font-size: 40px;
-  padding: 10px;
+  padding: 0 10px;
+  text-align: end;
+}
+
+.box-title .close {
+  display: block;
+  flex: 0 !important;
 }
 
 @media screen and (min-width: 1200px) {
@@ -180,15 +193,19 @@ export default {
   }
 
   .counter {
-    margin-right: 16%;
+    margin-right: 10%;
   }
 
   .close {
-    position: relative;
+    display: block;
   }
 
   .title {
     display: block;
+  }
+
+  .box-title .close {
+    display: none;
   }
 }
 </style>
