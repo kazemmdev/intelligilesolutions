@@ -16,7 +16,6 @@ const _46769483 = () => interopDefault(import('../pages/profile/index.vue' /* we
 const _369b2fa1 = () => interopDefault(import('../pages/saved/index.vue' /* webpackChunkName: "pages/saved/index" */))
 const _62919b54 = () => interopDefault(import('../pages/signup/index.vue' /* webpackChunkName: "pages/signup/index" */))
 const _e3dbed00 = () => interopDefault(import('../pages/supports/index.vue' /* webpackChunkName: "pages/supports/index" */))
-const _1acb1e05 = () => interopDefault(import('../pages/products/cart/index.vue' /* webpackChunkName: "pages/products/cart/index" */))
 const _e2e673a8 = () => interopDefault(import('../pages/profile/edit/index.vue' /* webpackChunkName: "pages/profile/edit/index" */))
 const _31ca646b = () => interopDefault(import('../pages/supports/_id/index.vue' /* webpackChunkName: "pages/supports/_id/index" */))
 const _2d7ff469 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
@@ -80,10 +79,6 @@ export const routerOptions = {
     path: "/supports",
     component: _e3dbed00,
     name: "supports"
-  }, {
-    path: "/products/cart",
-    component: _1acb1e05,
-    name: "products-cart"
   }, {
     path: "/profile/edit",
     component: _e2e673a8,

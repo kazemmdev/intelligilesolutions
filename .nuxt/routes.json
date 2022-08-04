@@ -84,13 +84,6 @@
     "_name": "_e3dbed00"
   },
   {
-    "name": "products-cart",
-    "path": "/products/cart",
-    "component": "/home/kazem/Desktop/intelligilesolutions/pages/products/cart/index.vue",
-    "chunkName": "pages/products/cart/index",
-    "_name": "_1acb1e05"
-  },
-  {
     "name": "profile-edit",
     "path": "/profile/edit",
     "component": "/home/kazem/Desktop/intelligilesolutions/pages/profile/edit/index.vue",
